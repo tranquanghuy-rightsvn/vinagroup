@@ -1,0 +1,18 @@
+/* ===== Giới thiệu công ty: text box overlapping image ===== */
+.overlap { padding: var(--section-pad) 0; }
+.overlap-row { display: flex; align-items: center; }
+.overlap-box { position: relative; z-index: 1; flex: 0 0 calc(50% + 80px); margin-right: -80px; padding: 32px; background: #296714; color: var(--white); }
+.overlap-title { text-align: center; }
+.overlap-box p { text-align: justify; }
+.overlap-image { flex: 0 0 50%; }
+.overlap-image img { display: block; width: 100%; height: auto; }
+
+@media (max-width: 975px) {
+  .overlap-box { flex-basis: calc(50% + 32px); margin-right: -32px; padding: 16px; }
+}
+
+@media (max-width: 575px) {
+  .overlap-row { flex-direction: column; align-items: stretch; }
+  .overlap-box { flex: none; margin: 0 0 16px; }
+  .overlap-image { flex: none; }
+}

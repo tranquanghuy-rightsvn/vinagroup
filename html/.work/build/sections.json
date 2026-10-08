@@ -1,0 +1,13 @@
+{
+ "home": {"orig":"", "clone":"index.html", "s":{
+   "header":["#ed-2485547606",".hero"], "about":["#ed-2485546289",".about"], "growth":[["#ed-2514767204","#ed-2485548242"],[".title-dark",".counters"]],
+   "services":["#ed-2485546556",".services"], "cta":["#ed-2485548425",".cta"], "footer":[["#ed-2487909995","#ed-2487909998"],["main > h2:last-of-type",".site-footer"]]}},
+ "gioi-thieu-cong-ty": {"orig":"gii-thiu-cng-ty", "clone":"gioi-thieu-cong-ty/index.html", "s":{
+   "hero":["#ed-2515419669",".hero"], "vision":["#ed-2515183557","main > section:nth-of-type(1)"], "mission":["#ed-2515183572","main > section:nth-of-type(2)"], "footer":["#ed-2515051361",".site-footer"]}},
+ "linh-vuc-dau-tu": {"orig":"linh-vuc-dau-tu", "clone":"linh-vuc-dau-tu/index.html", "s":{
+   "hero":["#ed-2515367306",".hero"], "services":["#ed-2485553091",".services"], "pricing":["#ed-2485553526",".pricing"]}},
+ "quan-he-co-dong": {"orig":"quan-he-co-ong", "clone":"quan-he-co-dong/index.html", "s":{
+   "hero":["#ed-2515367345",".hero"], "notice":["#ed-2515057698",".notice"], "goals":["#ed-2515057716",".goals"], "rights":[["#ed-2515367372","#ed-2515057752"],[".rights-heading",".rights"]], "footer":["#ed-2514865088",".site-footer"]}},
+ "lien-he": {"orig":"lien-he", "clone":"lien-he/index.html", "s":{
+   "hero":["#ed-2485560324",".hero"], "hours":["#ed-2485560297",".hours"], "contact":["#ed-2485561794",".contact"]}}
+}

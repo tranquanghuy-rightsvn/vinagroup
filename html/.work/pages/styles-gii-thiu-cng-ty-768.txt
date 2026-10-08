@@ -1,0 +1,100 @@
+  a.wv-link-content.button [-258,16 258x44] "Skip to main content" textTransform:uppercase; backgroundColor:rgb(255, 215, 0); maxWidth:100%; padding:8px 32px; border:1px solid rgba(0, 0, 0, 0); position:absolute; top:16px; left:0px; transform:matrix(1, 0, 0, 1, -257.844, 0); transition:transform 0.3s
+  div#ed-2515419669.ed-element.ed-container.banner.preset-banner-v3-home-hero-logo-nav-h1-slogan.parallax [0,0 768x491] display:flex; flexDirection:column; maxWidth:100%; position:relative; top:0px; left:0px
+    div.background [0,0 768x798] position:absolute; top:0px; left:0px; zIndex:0
+      figure#ed-2515419672.ed-element.ed-image.wv-bg [0,0 768x798] position:absolute; top:0px; left:0px; zIndex:0
+        div.background-image-holder.wv-bg-fixed [0,0 768x798] backgroundImage:url("https://vina-group.com.vn/images/1199/24806481/9d4955aea3680d66854a9ba1eadfc514-6iaBpjOmKYqgOS6_oLRgnQ.jpg"); backgroundSize:cover; backgroundPosition:50% 0px; position:absolute; top:0px; left:0px
+    div.overlay [0,0 768x491] backgroundColor:rgba(2, 75, 8, 0.784); position:absolute; top:0px; left:0px; zIndex:0
+    header#home-1.inner [0,0 768x491] display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; flexWrap:wrap; padding:0px 0px 70px; position:relative; top:0px; left:0px
+      div#ed-2515419678.ed-element.ed-container.wv-spacer.banner-content.wv-boxed [0,0 768x421] display:flex; flexDirection:column; maxWidth:100%; position:relative; top:0px; left:0px
+        div.inner [0,0 768x421] display:flex; justifyContent:flex-start; alignItems:flex-start; flexWrap:wrap; maxWidth:976px; padding:80px 16px; position:relative; top:0px; left:0px
+          div#ed-2862380593.ed-element.ed-container.flex-align-items-center.wv-boxed.menu-wrapper.wv-overflow_visible.preset-menu-v2-home-hero-logo-nav-h1-menu.wv-clone [16,80 736x176] backgroundColor:rgba(0, 0, 0, 0.008); display:flex; flexDirection:column; maxWidth:100%; position:relative; top:0px; left:0px; zIndex:10; transition:0.3s ease-in-out; fill:rgb(0, 255, 0)
+            div.inner [16,80 736x176] display:flex; justifyContent:space-between; alignItems:center; flexWrap:wrap; maxWidth:976px; padding:16px; position:relative; top:0px; left:0px
+              nav#ed-2862380596.ed-element.ed-menu.wv-custom [0,-900 768x900] textAlign:center; backgroundColor:rgb(51, 51, 51); display:flex; justifyContent:center; alignItems:center; maxWidth:100%; position:fixed; top:0px; left:0px; zIndex:4; opacity:0; transform:matrix(1, 0, 0, 1, 0, -900); transition:0.5s cubic-bezier(0.16, 0, 0.28, 0.99)
+                ul.menu-level-0 [275,-679 217x458] alignItems:center; padding:16px
+                  li.wv-page-28710146-vi.first [291,-663 185x60] display:list-item; margin:0px 0px 32px
+                    a.wv-page-28710146-vi.first [355,-658 59x50] "Home" color:rgb(255, 255, 255); fontSize:17.6px; fontFamily:Merriweather; lineHeight:17.6px; letterSpacing:2px; display:inline-block; padding:16px 0px; margin:5px 0px; position:relative; top:0px; left:0px; zIndex:10; transition:background-color 0.3s ease-in-out, color 0.3s ease-in-out, margin 0.3s ease-in-out
+                  li.wv-page-28855349-vi.active [291,-571 185x60] display:list-item; margin:0px 0px 32px
+                    a.wv-page-28855349-vi.active [291,-566 185x50] "Giới thiệu công ty" color:rgb(255, 255, 255); fontSize:17.6px; fontFamily:Merriweather; lineHeight:17.6px; letterSpacing:2px; display:inline-block; padding:16px 0px; margin:5px 0px; position:relative; top:0px; left:0px; zIndex:10; transition:background-color 0.3s ease-in-out, color 0.3s ease-in-out, margin 0.3s ease-in-out
+                  li.wv-page-28710180-vi [291,-480 185x60] display:list-item; margin:0px 0px 32px
+                    a.wv-page-28710180-vi [303,-475 161x50] "Lĩnh vực đầu tư" color:rgb(255, 255, 255); fontSize:17.6px; fontFamily:Merriweather; lineHeight:17.6px; letterSpacing:2px; display:inline-block; padding:16px 0px; margin:5px 0px; position:relative; top:0px; left:0px; zIndex:10; transition:background-color 0.3s ease-in-out, color 0.3s ease-in-out, margin 0.3s ease-in-out
+                  li.wv-page-28854323-vi [291,-388 185x60] display:list-item; margin:0px 0px 32px
+                    a.wv-page-28854323-vi [299,-383 171x50] "Quan hệ cổ đông" color:rgb(255, 255, 255); fontSize:17.6px; fontFamily:Merriweather; lineHeight:17.6px; letterSpacing:2px; display:inline-block; padding:16px 0px; margin:5px 0px; position:relative; top:0px; left:0px; zIndex:10; transition:background-color 0.3s ease-in-out, color 0.3s ease-in-out, margin 0.3s ease-in-out
+                  li.wv-page-28710213-vi.end [291,-297 185x60] display:list-item
+                    a.wv-page-28710213-vi.last [345,-292 79x50] "Liên Hệ" color:rgb(255, 255, 255); fontSize:17.6px; fontFamily:Merriweather; lineHeight:17.6px; letterSpacing:2px; display:inline-block; padding:16px 0px; margin:5px 0px; position:relative; top:0px; left:0px; zIndex:10; transition:background-color 0.3s ease-in-out, color 0.3s ease-in-out, margin 0.3s ease-in-out
+              div#ed-2862380599.ed-element.ed-logo [32,96 144x144] 
+                h1 [32,96 144x144] color:rgb(255, 255, 255); fontSize:23px; fontWeight:700; fontFamily:Merriweather; lineHeight:36.8px
+                  img [32,96 144x144] display:inline; maxWidth:100%; transition:0.3s ease-in-out
+              div#ed-2862380602.ed-element.ed-container.mobile-cont.wv-overflow_visible [176,137 560x62] display:flex; flexDirection:column; maxWidth:100%; position:relative; top:0px; left:0px
+                div.inner [176,137 560x62] display:flex; justifyContent:flex-end; alignItems:center; flexWrap:wrap; position:relative; top:0px; left:0px
+                  figure#ed-2862380605.ed-element.ed-icon [665,156 25x25] textAlign:center; margin:18.3906px 16px 18.3906px 489px
+                    a [665,156 25x25] color:rgb(0, 0, 0); transition:0.3s ease-in-out
+                      svg [665,156 25x25] fill:rgb(255, 255, 255)
+                  div#ed-2862380608.ed-element.ed-html.menu-trigger [706,137 30x62] lineHeight:0px; position:relative; top:0px; left:0px; zIndex:101; transition:opacity 0.3s ease-in-out
+                    div.menu-trigger-box [706,156 30x25] display:inline-block; margin:18.4px 0px; position:relative; top:0px; left:0px; transform:matrix(1, 0, 0, 1, 0, 0)
+                      div.menu-trigger-inner [706,156 30x3] fontSize:0px; backgroundColor:rgb(255, 255, 255); margin:-1.5px 0px 0px; position:absolute; top:1.5px; left:0px; transition:transform 0.15s, width 0.15s, margin-left 0.15s
+          div#ed-2515419681.ed-element.ed-headline.custom-theme [16,256 736x32] 
+            h2 [16,256 736x32] color:rgb(30, 144, 255); fontSize:21px; fontWeight:600; fontFamily:Merriweather; lineHeight:31.5px; textAlign:center
+              span [245,258 278x27] "GIỚI THIỆU VỀ CHÚNG TÔI" color:rgb(246, 248, 250); display:inline
+          div#ed-2515419684.ed-element.ed-spacer [16,288 736x10] 
+            div.space [16,288 736x10] 
+          div#ed-2515419687.ed-element.ed-headline.custom-theme [16,298 736x27] 
+            h3 [16,298 736x27] color:rgb(255, 215, 0); fontSize:18px; fontWeight:500; fontFamily:Merriweather; lineHeight:27px; letterSpacing:2px; textAlign:center
+              span.color-secondary [132,300 503x23] "Đem lại giá trị thực cho cổ đông và khách hàng." display:inline
+          div#ed-2515419690.ed-element.ed-spacer [16,325 736x16] 
+            div.space [16,325 736x16] 
+  div#ed-2515183557.ed-element.ed-container.wv-boxed.wv-spacer.preset-text-image-overlap-default.full-width.bg-background [0,491 768x428] backgroundColor:rgb(255, 255, 255); display:flex; flexDirection:column; maxWidth:100%; position:relative; top:0px; left:0px
+    div.inner [0,491 768x428] display:flex; justifyContent:flex-start; alignItems:center; flexWrap:wrap; maxWidth:976px; padding:80px 16px; position:relative; top:0px; left:0px
+      div#ed-2515183560.ed-element.ed-container.wv-overflow_visible.offset-box.text-image-overlap-box.full-width [16,571 400x268] backgroundColor:rgb(41, 103, 20); display:flex; flexDirection:column; padding:16px; margin:0px -32px 0px 0px; position:relative; top:0px; left:0px
+        div.inner [32,587 368x236] display:flex; justifyContent:flex-start; alignItems:flex-start; flexWrap:wrap; position:relative; top:0px; left:0px
+          div#ed-2515183563.ed-element.ed-headline.custom-theme [32,587 368x32] 
+            h2 [32,587 368x32] color:rgb(30, 144, 255); fontSize:21px; fontWeight:600; fontFamily:Merriweather; lineHeight:31.5px; textAlign:center
+              span.color-background [159,589 114x27] "TẦM NHÌN" color:rgb(255, 255, 255); display:inline
+          div#ed-2515183566.ed-element.ed-text.custom-theme [32,618 368x204] maxWidth:100%
+            p [32,618 368x204] textAlign:justify
+              span.color-background [32,619 372x202] "Chúng tôi mong muốn xây dựng một hệ sinh thái đầu " color:rgb(255, 255, 255); display:inline
+      figure#ed-2515183569.ed-element.ed-image.wv-overflow_hidden.offset-box.text-image-overlap-image [384,601 368x207] 
+        img [384,601 368x207] display:inline; maxWidth:100%
+  div#ed-2515183572.ed-element.ed-container.wv-boxed.wv-spacer.preset-text-image-overlap-default [0,918 768x428] display:flex; flexDirection:column; maxWidth:100%; position:relative; top:0px; left:0px
+    div.inner [0,918 768x428] display:flex; justifyContent:flex-start; alignItems:center; flexWrap:wrap; maxWidth:976px; padding:80px 16px; position:relative; top:0px; left:0px
+      div#ed-2515183575.ed-element.ed-container.wv-overflow_visible.offset-box.text-image-overlap-box.full-width [16,998 400x268] backgroundColor:rgb(41, 103, 20); display:flex; flexDirection:column; padding:16px; margin:0px -32px 0px 0px; position:relative; top:0px; left:0px
+        div.inner [32,1014 368x236] display:flex; justifyContent:flex-start; alignItems:flex-start; flexWrap:wrap; position:relative; top:0px; left:0px
+          div#ed-2515183578.ed-element.ed-headline.custom-theme [32,1014 368x32] 
+            h2 [32,1014 368x32] color:rgb(30, 144, 255); fontSize:21px; fontWeight:600; fontFamily:Merriweather; lineHeight:31.5px; textAlign:center
+              span.color-background [165,1016 101x27] "SỨ MỆNH" color:rgb(255, 255, 255); display:inline
+          div#ed-2515183581.ed-element.ed-text.custom-theme [32,1046 368x204] maxWidth:100%
+            p [32,1046 368x204] textAlign:justify
+              span.color-background [32,1047 372x202] "Vina Group kết nối cổ đông nhỏ lẻ với cơ hội Pre-I" color:rgb(255, 255, 255); display:inline
+      figure#ed-2515183584.ed-element.ed-image.wv-overflow_hidden.offset-box.text-image-overlap-image [384,1009 368x245] 
+        img [384,1009 368x245] display:inline; maxWidth:100%
+  div#ed-2515051361.ed-element.ed-reference.ed-reference-container.footer.preset-footer-heimdall-v2-alignments [0,1346 768x288] color:rgb(255, 255, 255); display:flex; flexDirection:column; position:relative; top:0px; left:0px
+    div.inner [0,1346 768x288] display:flex; justifyContent:flex-start; alignItems:flex-start; flexWrap:wrap; position:relative; top:0px; left:0px
+      div#ed-2487910001.ed-element.ed-container.wv-boxed.footer-heimdall-content.wv-spacer.full-width [0,1346 768x288] backgroundColor:rgb(34, 101, 7); display:flex; flexDirection:column; justifyContent:center; alignItems:center; maxWidth:100%; position:relative; top:0px; left:0px
+        div.inner [-8,1338 784x304] display:flex; justifyContent:flex-start; alignItems:stretch; flexWrap:wrap; maxWidth:992px; padding:80px 16px; margin:-8px; position:relative; top:0px; left:0px
+          div#ed-2487910004.ed-element.ed-container.footer-heimdall-box.wv-overflow_hidden [16,1426 235x128] textAlign:left; display:flex; flexDirection:column; maxWidth:calc(33.3333% - 16px); margin:8px; position:relative; top:0px; left:0px
+            div.inner [16,1426 235x128] display:flex; justifyContent:flex-start; alignItems:flex-start; flexWrap:wrap; position:relative; top:0px; left:0px
+              figure#ed-2487910007.ed-element.ed-icon.footer-heimdall-icon [16,1426 18x18] textAlign:center; margin:0px 16px 0px 0px
+                svg [16,1426 18x18] lineHeight:18px; fill:rgb(255, 255, 255)
+              div#ed-2487910010.ed-element.ed-headline.custom-theme [50,1426 169x18] 
+                h3.center [50,1426 169x18] "ĐỊA CHỈ TRỤ SỞ" color:rgb(255, 215, 0); fontSize:18px; fontWeight:500; fontFamily:Merriweather; lineHeight:18px; letterSpacing:2px; textAlign:center
+              div#ed-2487910013.ed-element.ed-text.custom-theme [16,1452 235x102] maxWidth:100%; margin:8px 0px 0px
+                p [16,1452 235x77] "Tầng 27, Tháp A2, Tòa nhà Viettel, 285 Cách mạng t" 
+                p [16,1528 235x26] 
+          div#ed-2487910016.ed-element.ed-container.footer-heimdall-box [267,1426 235x128] textAlign:left; display:flex; flexDirection:column; maxWidth:calc(33.3333% - 16px); margin:8px; position:relative; top:0px; left:0px
+            div.inner [267,1426 235x128] display:flex; justifyContent:center; alignItems:flex-start; flexWrap:wrap; position:relative; top:0px; left:0px
+              figure#ed-2487910019.ed-element.ed-icon.footer-heimdall-icon [334,1426 18x18] textAlign:center; margin:0px 16px 0px 0px
+                svg [334,1426 18x18] lineHeight:18px; fill:rgb(255, 255, 255)
+              div#ed-2487910022.ed-element.ed-headline.custom-theme [368,1426 65x18] 
+                h3.center [368,1426 65x18] "Phone" color:rgb(255, 215, 0); fontSize:18px; fontWeight:500; fontFamily:Merriweather; lineHeight:18px; letterSpacing:2px; textAlign:center
+              div#ed-2487910025.ed-element.ed-text.custom-theme [267,1452 235x26] textAlign:center; maxWidth:100%; margin:8px 0px 0px
+                p [267,1452 235x26] "Phone: 077.291.6169" 
+                  a.font-satoshi.text-[#BFFF00].hover:text-[#D4AF77].transition-colors [467,1457 0x18] color:rgb(191, 255, 0); fontSize:16px; fontFamily:Satoshi, sans-serif; lineHeight:24px; textAlign:start; backgroundColor:rgb(10, 37, 64); display:inline; transition:color 0.15s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), outline-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), text-decoration-color 0.15s cubic-bezier(0.4, 0, 0.2, 1), fill 0.15s cubic-bezier(0.4, 0, 0.2, 1), stroke 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-from 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-via 0.15s cubic-bezier(0.4, 0, 0.2, 1), --tw-gradient-to 0.15s cubic-bezier(0.4, 0, 0.2, 1)
+          div#ed-2487910028.ed-element.ed-container.footer-heimdall-box [517,1426 235x128] textAlign:left; display:flex; flexDirection:column; maxWidth:calc(33.3333% - 16px); margin:8px; position:relative; top:0px; left:0px
+            div.inner [517,1426 235x128] display:flex; justifyContent:flex-end; alignItems:flex-start; flexWrap:wrap; position:relative; top:0px; left:0px
+              figure#ed-2487910031.ed-element.ed-icon.footer-heimdall-icon [637,1426 18x18] textAlign:center; margin:0px 16px 0px 0px
+                svg [637,1426 18x18] lineHeight:18px; fill:rgb(255, 255, 255)
+              div#ed-2487910034.ed-element.ed-headline.custom-theme [671,1426 81x18] 
+                h3.center [671,1426 81x18] "Contact" color:rgb(255, 215, 0); fontSize:18px; fontWeight:500; fontFamily:Merriweather; lineHeight:18px; letterSpacing:2px; textAlign:center
+              div#ed-2487910037.ed-element.ed-text.custom-theme [517,1452 235x77] textAlign:right; maxWidth:100%; margin:8px 0px 0px
+                p [517,1452 235x26] 
+                  a [517,1453 243x23] "tapdoanvinagroup@gmail.com" display:inline; transition:0.3s ease-in-out
+                p [517,1477 235x51] "Mã số thuế: 0317904928" textAlign:left

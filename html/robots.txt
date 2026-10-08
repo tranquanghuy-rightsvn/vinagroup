@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vina-group.com.vn/sitemap.xml

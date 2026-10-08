@@ -1,0 +1,142 @@
+  a.wv-link-content.button [-258,16 258x44] "Skip to main content" textTransform:uppercase; backgroundColor:rgb(255, 215, 0); maxWidth:100%; padding:8px 32px; border:1px solid rgba(0, 0, 0, 0); position:absolute; top:16px; left:0px; transform:matrix(1, 0, 0, 1, -257.844, 0); transition:transform 0.3s
+  div#ed-2485560324.ed-element.ed-container.banner.preset-banner-v3-home-hero-logo-nav-h1-slogan.parallax [0,0 1440x450] display:flex; flexDirection:column; maxWidth:100%; position:relative; top:0px; left:0px
+    div.background [0,0 1440x788] position:absolute; top:0px; left:0px; zIndex:0
+      figure#ed-2485560327.ed-element.ed-image.wv-bg [0,0 1440x788] position:absolute; top:0px; left:0px; zIndex:0
+        div.background-image-holder.wv-bg-fixed [0,0 1440x788] backgroundImage:url("https://vina-group.com.vn/images/736/24806840/2ece75aed8d3fb3c51ab95ecf8d4c793-kdGqLV1HHjJhGJkToRrGSQ.jpg"); backgroundSize:cover; backgroundPosition:50% 0px; position:absolute; top:0px; left:0px
+    div.overlay [0,0 1440x450] backgroundColor:rgba(5, 47, 8, 0.784); position:absolute; top:0px; left:0px; zIndex:0
+    header#home-1.inner [0,0 1440x450] display:flex; flexDirection:column; justifyContent:flex-start; alignItems:flex-start; flexWrap:wrap; padding:0px 0px 70px; position:relative; top:0px; left:0px
+      div#ed-2485560348.ed-element.ed-container.wv-spacer.banner-content.wv-boxed [0,0 1440x380] display:flex; flexDirection:column; maxWidth:100%; position:relative; top:0px; left:0px
+        div.inner [232,0 976x380] display:flex; justifyContent:flex-start; alignItems:flex-start; flexWrap:wrap; maxWidth:976px; padding:80px 16px; margin:0px 232px; position:relative; top:0px; left:0px
+          div#ed-2515618458.ed-element.ed-reference.ed-reference-container.flex-align-items-center.wv-boxed.menu-wrapper.wv-overflow_visible.preset-menu-v2-home-hero-logo-nav-h1-menu [248,114 944x113] backgroundColor:rgba(0, 0, 0, 0.008); display:flex; flexDirection:column; position:relative; top:0px; left:0px; zIndex:10; transition:0.3s ease-in-out; fill:rgb(0, 255, 0)
+            div.inner [248,114 944x113] display:flex; justifyContent:space-between; alignItems:center; flexWrap:wrap; maxWidth:976px; padding:16px; position:relative; top:0px; left:0px
+              nav#ed-2485547618.ed-element.ed-menu.wv-custom [345,146 831x50] 
+                ul.menu-level-0 [345,146 831x50] textAlign:right; display:flex; justifyContent:center; alignItems:center
+                  li.wv-page-28710146-vi.first [369,146 59x50] margin:0px 32px 0px 0px
+                    a.wv-page-28710146-vi.first [369,146 59x50] "Home" color:rgb(255, 255, 255); fontSize:17.6px; fontFamily:Merriweather; lineHeight:17.6px; letterSpacing:2px; display:inline-block; padding:16px 0px; position:relative; top:0px; left:0px; zIndex:10; transition:background-color 0.3s ease-in-out, color 0.3s ease-in-out, margin 0.3s ease-in-out
+                  li.wv-page-28855349-vi [460,146 185x50] margin:0px 32px 0px 0px
+                    a.wv-page-28855349-vi [460,146 185x50] "Giới thiệu công ty" color:rgb(255, 255, 255); fontSize:17.6px; fontFamily:Merriweather; lineHeight:17.6px; letterSpacing:2px; display:inline-block; padding:16px 0px; position:relative; top:0px; left:0px; zIndex:10; transition:background-color 0.3s ease-in-out, color 0.3s ease-in-out, margin 0.3s ease-in-out
+                  li.wv-page-28710180-vi [677,146 161x50] margin:0px 32px 0px 0px
+                    a.wv-page-28710180-vi [677,146 161x50] "Lĩnh vực đầu tư" color:rgb(255, 255, 255); fontSize:17.6px; fontFamily:Merriweather; lineHeight:17.6px; letterSpacing:2px; display:inline-block; padding:16px 0px; position:relative; top:0px; left:0px; zIndex:10; transition:background-color 0.3s ease-in-out, color 0.3s ease-in-out, margin 0.3s ease-in-out
+                  li.wv-page-28854323-vi [871,146 171x50] margin:0px 32px 0px 0px
+                    a.wv-page-28854323-vi [871,146 171x50] "Quan hệ cổ đông" color:rgb(255, 255, 255); fontSize:17.6px; fontFamily:Merriweather; lineHeight:17.6px; letterSpacing:2px; display:inline-block; padding:16px 0px; position:relative; top:0px; left:0px; zIndex:10; transition:background-color 0.3s ease-in-out, color 0.3s ease-in-out, margin 0.3s ease-in-out
+                  li.wv-page-28710213-vi.end.active [1073,146 79x50] 
+                    a.wv-page-28710213-vi.last.active [1073,146 79x50] "Liên Hệ" color:rgb(255, 255, 255); fontSize:17.6px; fontFamily:Merriweather; lineHeight:17.6px; letterSpacing:2px; display:inline-block; padding:16px 0px; position:relative; top:0px; left:0px; zIndex:10; transition:background-color 0.3s ease-in-out, color 0.3s ease-in-out, margin 0.3s ease-in-out
+              div#ed-2862252695.ed-element.ed-logo [264,130 81x81] 
+                h1 [264,130 81x81] color:rgb(255, 255, 255); fontSize:30px; fontWeight:700; fontFamily:Merriweather; lineHeight:48px
+                  img [264,130 81x81] display:inline; maxWidth:100%; transition:0.3s ease-in-out
+          div#ed-2485560351.ed-element.ed-headline.custom-theme [248,227 944x39] 
+            h2 [248,227 944x39] color:rgb(30, 144, 255); fontSize:26px; fontWeight:600; fontFamily:Merriweather; lineHeight:39px; textAlign:center
+              span [603,230 234x33] "Liên Hệ Chúng Tôi" color:rgb(246, 248, 250); display:inline
+  div#ed-2485560297.ed-element.ed-container.wv-boxed.wv-spacer.preset-opening-hours-v3-default [0,450 1440x219] display:flex; flexDirection:column; justifyContent:center; alignItems:center; maxWidth:100%; position:relative; top:0px; left:0px
+    div#opening-hours.inner [232,450 976x219] display:flex; justifyContent:flex-start; alignItems:center; flexWrap:wrap; maxWidth:976px; padding:80px 16px; position:relative; top:0px; left:0px
+      figure#ed-2485560300.ed-element.ed-icon.opening-hours-clock [248,531 85x58] textAlign:center; flexDirection:column; justifyContent:center; alignItems:center; flexWrap:wrap; padding:8px; position:relative; top:0px; left:0px
+        svg [270,539 42x42] display:inline; fill:rgb(36, 122, 16)
+      div#ed-2485560303.ed-element.ed-text.opening-hours-box.custom-theme [333,530 129x59] textAlign:center; flexDirection:column; justifyContent:center; alignItems:center; flexWrap:wrap; maxWidth:100%; padding:8px; position:relative; top:0px; left:0px
+        p [341,538 113x22] fontSize:14.4px; lineHeight:21.6px
+          strong [373,540 50x18] "Thứ Hai" fontSize:13.04px; fontWeight:200; lineHeight:19.56px; textTransform:uppercase; display:inline
+        p [341,560 113x22] "08:00 - 17:00" fontSize:14.4px; lineHeight:21.6px
+      div#ed-2485560306.ed-element.ed-text.opening-hours-box.custom-theme [462,530 129x59] textAlign:center; flexDirection:column; justifyContent:center; alignItems:center; flexWrap:wrap; maxWidth:100%; padding:8px; position:relative; top:0px; left:0px
+        p [470,538 113x22] fontSize:14.4px; lineHeight:21.6px
+          strong [504,540 45x18] "Thứ Ba" fontSize:13.04px; fontWeight:200; lineHeight:19.56px; textTransform:uppercase; display:inline
+        p [470,560 113x22] "08:00 - 17:00" fontSize:14.4px; lineHeight:21.6px
+      div#ed-2485560309.ed-element.ed-text.opening-hours-box.custom-theme [591,530 129x59] textAlign:center; flexDirection:column; justifyContent:center; alignItems:center; flexWrap:wrap; maxWidth:100%; padding:8px; position:relative; top:0px; left:0px
+        p [599,538 113x22] fontSize:14.4px; lineHeight:21.6px
+          strong [633,540 46x18] "Thứ Tư" fontSize:13.04px; fontWeight:200; lineHeight:19.56px; textTransform:uppercase; display:inline
+        p [599,560 113x22] "08:00 - 17:00" fontSize:14.4px; lineHeight:21.6px
+      div#ed-2485560312.ed-element.ed-text.opening-hours-box.custom-theme [720,530 129x59] textAlign:center; flexDirection:column; justifyContent:center; alignItems:center; flexWrap:wrap; maxWidth:100%; padding:8px; position:relative; top:0px; left:0px
+        p [728,538 113x22] fontSize:14.4px; lineHeight:21.6px
+          strong [755,540 58x18] "Thứ Năm" fontSize:13.04px; fontWeight:200; lineHeight:19.56px; textTransform:uppercase; display:inline
+        p [728,560 113x22] "08:00 - 17:00" fontSize:14.4px; lineHeight:21.6px
+      div#ed-2485560315.ed-element.ed-text.opening-hours-box.custom-theme [849,530 129x59] textAlign:center; flexDirection:column; justifyContent:center; alignItems:center; flexWrap:wrap; maxWidth:100%; padding:8px; position:relative; top:0px; left:0px
+        p [857,538 113x22] fontSize:14.4px; lineHeight:21.6px
+          strong [886,540 54x18] "Thứ Sáu" fontSize:13.04px; fontWeight:200; lineHeight:19.56px; textTransform:uppercase; display:inline
+        p [857,560 113x22] "08:00 - 17:00" fontSize:14.4px; lineHeight:21.6px
+      div#ed-2485560318.ed-element.ed-text.opening-hours-box.custom-theme [978,530 107x59] textAlign:center; flexDirection:column; justifyContent:center; alignItems:center; flexWrap:wrap; maxWidth:100%; padding:8px; position:relative; top:0px; left:0px
+        p [986,538 91x22] fontSize:14.4px; lineHeight:21.6px
+          strong [1005,540 52x18] "Thứ Bảy" fontSize:13.04px; fontWeight:200; lineHeight:19.56px; textTransform:uppercase; display:inline
+        p [986,560 91x22] "Đóng cửa" fontSize:14.4px; lineHeight:21.6px
+      div#ed-2485560321.ed-element.ed-text.opening-hours-box.custom-theme [1085,530 107x59] textAlign:center; flexDirection:column; justifyContent:center; alignItems:center; flexWrap:wrap; maxWidth:100%; padding:8px; position:relative; top:0px; left:0px
+        p [1093,538 91x22] fontSize:14.4px; lineHeight:21.6px
+          strong [1107,540 64x18] "Chủ Nhật" fontSize:13.04px; fontWeight:200; lineHeight:19.56px; textTransform:uppercase; display:inline
+        p [1093,560 91x22] "Đóng cửa" fontSize:14.4px; lineHeight:21.6px
+  div#ed-2485561794.ed-element.ed-container.wv-boxed.wv-spacer.preset-columns-two-v2-contact-5 [0,669 1440x601] display:flex; flexDirection:column; justifyContent:center; alignItems:center; maxWidth:100%; position:relative; top:0px; left:0px
+    div#contact-us-5.inner [200,637 1040x665] display:flex; justifyContent:flex-start; alignItems:stretch; flexWrap:wrap; maxWidth:1040px; padding:80px 16px; margin:-32px; position:relative; top:0px; left:0px
+      div#ed-2485561797.ed-element.ed-container.columns-box.wv-overflow_visible [248,749 440x441] display:flex; flexDirection:column; maxWidth:calc(50% - 64px); margin:32px; position:relative; top:0px; left:0px
+        div.inner [248,749 440x441] display:flex; justifyContent:flex-start; alignItems:flex-start; flexWrap:wrap; position:relative; top:0px; left:0px
+          div#ed-2485561800.ed-element.ed-headline.custom-theme [248,749 440x39] 
+            h2 [248,749 440x39] color:rgb(30, 144, 255); fontSize:26px; fontWeight:600; fontFamily:Merriweather; lineHeight:39px
+              span [248,752 97x33] "Liên Hệ" color:rgb(20, 132, 12); display:inline
+          div#ed-2485561803.ed-element.ed-spacer [248,788 440x16] 
+            div.space [248,788 440x16] 
+          div#ed-2485561806.ed-element.ed-text.custom-theme.desc [248,804 440x102] maxWidth:100%
+            p [248,804 440x102] "Chúng tôi luôn sẵn sàng hỗ trợ bạn. Vui lòng điền " 
+          div#ed-2485561809.ed-element.ed-spacer [248,906 440x30] 
+            div.space [248,906 440x30] 
+          div#ed-2485561812.ed-element.ed-container.wv-boxed.wv-spacer.wv-overflow_hidden.preset-boxes-v3-contact-5 [248,936 440x249] display:flex; flexDirection:column; justifyContent:center; alignItems:center; maxWidth:100%; position:relative; top:0px; left:0px
+            div.inner [236,924 464x273] display:flex; justifyContent:flex-start; alignItems:flex-start; flexWrap:wrap; margin:-12px; position:relative; top:0px; left:0px
+              div#ed-2485561815.ed-element.ed-container.boxes-box.wv-overflow_visible [248,936 440x84] display:flex; flexDirection:column; maxWidth:calc(100% - 24px); margin:12px; position:relative; top:0px; left:0px
+                div.inner [248,936 440x84] display:flex; justifyContent:center; alignItems:flex-start; flexWrap:wrap; position:relative; top:0px; left:0px
+                  figure#ed-2485561818.ed-element.ed-icon.boxes-icon [248,936 35x35] textAlign:center; backgroundColor:rgb(36, 138, 17); display:flex; justifyContent:center; alignItems:center; padding:8px
+                    svg [256,944 19x19] lineHeight:19.2px; fill:rgb(255, 255, 255)
+                  div#ed-2485561821.ed-element.ed-container.boxes-box-inner [283,936 405x84] display:flex; flexDirection:column; maxWidth:100%; padding:0px 0px 0px 16px; position:relative; top:0px; left:0px
+                    div.inner [299,936 389x84] display:flex; justifyContent:flex-start; alignItems:flex-start; flexWrap:wrap; position:relative; top:0px; left:0px
+                      div#ed-2485561824.ed-element.ed-headline.custom-theme.address [299,936 389x33] 
+                        h3 [299,936 389x33] color:rgb(255, 215, 0); fontSize:22px; fontWeight:500; fontFamily:Merriweather; lineHeight:33px; letterSpacing:2px
+                          span [299,938 99x28] "Address" color:rgb(16, 93, 31); display:inline
+                      div#ed-2485561827.ed-element.ed-text.custom-theme [299,969 389x51] maxWidth:100%
+                        p [299,969 389x51] "Tầng 27, Tháp A2, Tòa nhà Viettel, 285 Cách mạng t" 
+              div#ed-2485561830.ed-element.ed-container.boxes-box.wv-overflow_visible [248,1044 440x59] display:flex; flexDirection:column; maxWidth:calc(100% - 24px); margin:12px; position:relative; top:0px; left:0px
+                div.inner [248,1044 440x59] display:flex; justifyContent:center; alignItems:flex-start; flexWrap:wrap; position:relative; top:0px; left:0px
+                  figure#ed-2485561833.ed-element.ed-icon.boxes-icon [248,1044 35x35] textAlign:center; backgroundColor:rgb(36, 138, 17); display:flex; justifyContent:center; alignItems:center; padding:8px
+                    svg [256,1052 19x19] lineHeight:19.2px; fill:rgb(255, 255, 255)
+                  div#ed-2485561836.ed-element.ed-container.boxes-box-inner [283,1044 405x59] display:flex; flexDirection:column; maxWidth:100%; padding:0px 0px 0px 16px; position:relative; top:0px; left:0px
+                    div.inner [299,1044 389x59] display:flex; justifyContent:flex-start; alignItems:flex-start; flexWrap:wrap; position:relative; top:0px; left:0px
+                      div#ed-2485561839.ed-element.ed-headline.custom-theme.phone [299,1044 389x33] 
+                        h3 [299,1044 389x33] color:rgb(255, 215, 0); fontSize:22px; fontWeight:500; fontFamily:Merriweather; lineHeight:33px; letterSpacing:2px
+                          span [299,1046 93x28] "Hotline" color:rgb(12, 107, 31); display:inline
+                      div#ed-2485561842.ed-element.ed-text.custom-theme [299,1077 389x26] maxWidth:100%
+                        p [299,1077 389x26] "077.291.6169" 
+              div#ed-2485561845.ed-element.ed-container.boxes-box.wv-overflow_visible [248,1127 440x59] display:flex; flexDirection:column; maxWidth:calc(100% - 24px); margin:12px; position:relative; top:0px; left:0px
+                div.inner [248,1127 440x59] display:flex; justifyContent:center; alignItems:flex-start; flexWrap:wrap; position:relative; top:0px; left:0px
+                  figure#ed-2485561848.ed-element.ed-icon.boxes-icon [248,1127 35x35] textAlign:center; backgroundColor:rgb(36, 138, 17); display:flex; justifyContent:center; alignItems:center; padding:8px
+                    svg [256,1135 19x19] lineHeight:19.2px; fill:rgb(255, 255, 255)
+                  div#ed-2485561851.ed-element.ed-container.boxes-box-inner [283,1127 405x59] display:flex; flexDirection:column; maxWidth:100%; padding:0px 0px 0px 16px; position:relative; top:0px; left:0px
+                    div.inner [299,1127 389x59] display:flex; justifyContent:flex-start; alignItems:flex-start; flexWrap:wrap; position:relative; top:0px; left:0px
+                      div#ed-2485561854.ed-element.ed-headline.custom-theme.email [299,1127 389x33] 
+                        h3 [299,1127 389x33] color:rgb(255, 215, 0); fontSize:22px; fontWeight:500; fontFamily:Merriweather; lineHeight:33px; letterSpacing:2px
+                          span [299,1129 79x28] "Email:" color:rgb(6, 92, 8); display:inline
+                      div#ed-2485561857.ed-element.ed-text.custom-theme [299,1160 389x26] maxWidth:100%
+                        p [299,1160 389x26] "tapdoanvinagroup@gmail.com" 
+      div#ed-2485561860.ed-element.ed-container.columns-box.wv-overflow_visible [752,749 440x441] display:flex; flexDirection:column; maxWidth:calc(50% - 64px); margin:32px; position:relative; top:0px; left:0px
+        div.inner [752,749 440x441] display:flex; justifyContent:flex-start; alignItems:flex-start; flexWrap:wrap; position:relative; top:0px; left:0px
+          div#ed-2485561863.ed-element.ed-headline.custom-theme [752,749 440x25] 
+            h4 [752,749 440x25] color:rgb(30, 144, 255); fontSize:18px; fontFamily:Merriweather; lineHeight:25.2px
+              span [752,750 169x23] "Thông Tin Liên Lạc" color:rgb(31, 122, 61); display:inline
+          div#ed-2485561866.ed-element.ed-spacer [752,774 440x16] 
+            div.space [752,774 440x16] 
+          div#ed-2485561869.ed-element.ed-container.wv-overflow_visible.wv-spacer.wv-boxed.preset-contact-form-v3-row.full-width [752,790 440x400] backgroundColor:rgb(255, 255, 255); display:flex; flexDirection:column; maxWidth:100%; position:relative; top:0px; left:0px
+            div.inner [752,790 440x400] display:flex; justifyContent:space-between; alignItems:flex-start; flexWrap:wrap; maxWidth:976px; position:relative; top:0px; left:0px
+              div#ed-2485561872.ed-element.ed-form-container [752,790 440x400] display:flex; flexDirection:column; maxWidth:100%
+                form [744,782 456x416] display:flex; justifyContent:space-between; flexWrap:wrap; margin:-8px
+                  div#ed-2485561875.ed-element.ed-form-input [752,790 440x44] maxWidth:100%; margin:8px
+                    input#form_2485561872_ed-f-2485561875 [752,790 440x44] color:rgb(0, 0, 0); backgroundColor:rgb(250, 250, 250); padding:8px 16px; border:1px solid rgb(51, 51, 51); transition:0.3s ease-in-out
+                  div#ed-2485561878.ed-element.ed-form-email [752,850 440x44] maxWidth:100%; margin:8px
+                    input#form_2485561872_ed-f-2485561878 [752,850 440x44] color:rgb(0, 0, 0); backgroundColor:rgb(250, 250, 250); padding:8px 16px; border:1px solid rgb(51, 51, 51); transition:0.3s ease-in-out
+                  div#ed-2485561881.ed-element.ed-form-textarea [752,909 440x120] maxWidth:100%; margin:8px
+                    textarea#form_2485561872_ed-f-2485561881 [752,909 440x120] color:rgb(0, 0, 0); backgroundColor:rgb(250, 250, 250); padding:8px 16px; border:1px solid rgb(51, 51, 51); transition:0.3s ease-in-out
+                  div#ed-2485561884.ed-element.ed-form-checkbox.privacy [752,1045 440x26] maxWidth:100%; margin:8px
+                    ul.checkbox_list [752,1045 440x26] 
+                      li [752,1045 440x26] display:flex; alignItems:center
+                        input#form_2485561872_ed-f-2485561884_0 [752,1052 13x13] color:rgb(0, 0, 0)
+                        label [769,1045 423x26] 
+                          p [769,1045 423x26] 
+                            a#privacy [769,1046 365x23] "I have read and understand the privacy policy." color:rgb(0, 0, 0); display:inline; transition:0.3s ease-in-out
+                  div#ed-2485561887.ed-element.ed-form-captcha [752,1087 440x44] display:flex; justifyContent:flex-start; alignItems:center; flexWrap:wrap; maxWidth:100%; margin:8px
+                    div.image [752,1089 140x40] margin:0px 20px 0px 0px
+                      img [752,1089 140x40] display:inline
+                    div.input [912,1087 100x44] 
+                      input#form_2485561872_ed-f-2485561887_text [912,1087 100x44] color:rgb(0, 0, 0); backgroundColor:rgb(250, 250, 250); display:inline-block; padding:8px 16px; border:1px solid rgb(51, 51, 51); transition:0.3s ease-in-out
+                    div.regenerate [1028,1096 21x25] fontSize:10px; lineHeight:15px; margin:0px 0px 0px 16px
+                      a.regenerate [1028,1096 21x24] "Unreadable? Regenerate" color:rgb(81, 147, 26); fontSize:0px; fontFamily:FontAwesome; lineHeight:0px; display:inline-block; transition:0.3s ease-in-out
+                  div#ed-2485561890.ed-element.ed-form-button.custom-theme [752,1146 440x44] maxWidth:100%; margin:8px
+                    button#form_3476085_ed-f-7313037 [752,1146 440x44] "Gửi Thông Tin" textTransform:uppercase; textAlign:center; backgroundColor:rgb(255, 215, 0); display:inline-block; justifyContent:center; alignItems:center; maxWidth:100%; padding:8px 16px; border:1px solid rgba(0, 0, 0, 0); transition:0.3s ease-in-out

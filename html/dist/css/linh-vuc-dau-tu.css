@@ -1,0 +1,25 @@
+/* ===== Lĩnh vực đầu tư ===== */
+.title-deep { color: #071a09; }
+
+/* Pricing cards */
+.pricing { padding: var(--section-pad) 0; }
+.pricing-heading { color: #154a0a; }
+.pricing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; align-items: center; margin-top: 30px; }
+.price-card { border: 1px solid rgba(58, 60, 59, 0.1); background: var(--white); text-align: center; transition: transform .3s ease-in-out; }
+.price-card:hover { transform: scale(1.025); }
+.price-card--featured { position: relative; z-index: 1; }
+.price-head { padding: 16px; background: #4d9616; color: var(--white); }
+.price-head svg { width: 32px; height: 32px; margin: 0 auto 8px; }
+.price-head h3 { font: 700 17px/1.5 var(--sans); letter-spacing: 0; text-transform: uppercase; }
+.price-body { padding: 16px; }
+.price-card--featured .price-head, .price-card--featured .price-body { padding: 32px; }
+.price-value { font-size: 32px; line-height: 48px; }
+.price-features { margin: 16px 0 30px; }
+.price-features li { padding: 8px; border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
+.price-features li:last-child { border-bottom: 0; }
+.price-card--featured .price-features li:first-child { padding: 16px; }
+
+@media (max-width: 575px) {
+  .pricing-grid { grid-template-columns: 1fr; }
+  .price-card:hover { transform: none; }
+}

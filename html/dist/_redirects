@@ -1,0 +1,20 @@
+# Old misspelled slugs from the previous site -> new slugs (permanent)
+/gii-thiu-cng-ty /gioi-thieu-cong-ty/ 301
+/gii-thiu-cng-ty/ /gioi-thieu-cong-ty/ 301
+/quan-he-co-ong /quan-he-co-dong/ 301
+/quan-he-co-ong/ /quan-he-co-dong/ 301
+
+# Canonical form is /slug/ — make the alternatives permanent (Cloudflare's own trailing-slash redirect is 307)
+/index.html / 301
+/gioi-thieu-cong-ty /gioi-thieu-cong-ty/ 301
+/gioi-thieu-cong-ty/index.html /gioi-thieu-cong-ty/ 301
+/linh-vuc-dau-tu /linh-vuc-dau-tu/ 301
+/linh-vuc-dau-tu/index.html /linh-vuc-dau-tu/ 301
+/quan-he-co-dong /quan-he-co-dong/ 301
+/quan-he-co-dong/index.html /quan-he-co-dong/ 301
+/lien-he /lien-he/ 301
+/lien-he/index.html /lien-he/ 301
+
+# Anything below an old slug
+/gii-thiu-cng-ty/* /gioi-thieu-cong-ty/ 301
+/quan-he-co-ong/* /quan-he-co-dong/ 301

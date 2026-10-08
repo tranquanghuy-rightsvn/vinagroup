@@ -1,0 +1,12 @@
+# Dependencies / local tooling — reinstall with: cd html/.work/cf && npm install
+node_modules/
+
+# Wrangler local dev state
+.wrangler/
+
+# Temporary logs & raw screenshots from the clone process
+html/.work/cf/dev.log
+html/.work/shots/
+
+# OS files
+.DS_Store

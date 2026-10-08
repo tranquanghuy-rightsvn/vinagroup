@@ -1,0 +1,36 @@
+/* ===== Quan hệ cổ đông ===== */
+.sh-title { color: #0c6a0f; }
+.sh-title--center { text-align: center; }
+
+/* Caret bullet list */
+.caret-list { padding-left: 16px; }
+.caret-list li { position: relative; }
+.caret-list li::before { content: ""; position: absolute; top: calc(.5lh - 5px); left: -16px; border-left: 5px solid #1e90ff; border-top: 5px solid transparent; border-bottom: 5px solid transparent; }
+
+/* Notice */
+.notice { padding: var(--section-pad) 0; }
+.notice-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+.notice-image { min-height: 100px; background: url(../images/shareholder-notice.webp) 50% 50% / cover; }
+
+/* Goals */
+.goals { padding: var(--section-pad) 0; }
+.goals-grid { display: grid; grid-template-columns: 619fr 293fr; gap: 32px; }
+.goals-title { color: #29831c; }
+.goals-media img { display: block; width: 100%; height: auto; }
+.goals-list { padding-top: 51px; color: #09630a; line-height: 34px; text-align: justify; }
+
+/* Rights */
+.rights-heading { color: #125c04; }
+.rights { padding: var(--section-pad) 0; }
+.rights-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.right-item { display: flex; min-height: 82px; border: 1px solid #297b14; background: var(--white); }
+.right-icon { display: flex; flex: none; align-items: center; justify-content: center; width: 48px; background: #129f18; color: var(--white); }
+.right-icon svg { width: 16px; height: 16px; }
+.right-item h3 { display: flex; align-items: center; padding: 16px; color: #356325; font: 500 16px/24px var(--sans); letter-spacing: 2px; }
+
+@media (max-width: 575px) {
+  .notice-grid, .goals-grid, .rights-grid { grid-template-columns: 1fr; }
+  .goals { padding-top: 48px; }
+  .goals-grid { gap: 16px; }
+  .rights-grid { gap: 8px; }
+}

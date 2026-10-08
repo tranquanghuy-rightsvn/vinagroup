@@ -1,0 +1,44 @@
+    <section class="hours">
+      <div class="container hours-row">
+        <span class="hours-clock">{{ico-wall-clock}}</span>
+        <dl class="hours-list">
+          <div class="hours-item"><dt>Thứ Hai</dt><dd>08:00 - 17:00</dd></div>
+          <div class="hours-item"><dt>Thứ Ba</dt><dd>08:00 - 17:00</dd></div>
+          <div class="hours-item"><dt>Thứ Tư</dt><dd>08:00 - 17:00</dd></div>
+          <div class="hours-item"><dt>Thứ Năm</dt><dd>08:00 - 17:00</dd></div>
+          <div class="hours-item"><dt>Thứ Sáu</dt><dd>08:00 - 17:00</dd></div>
+          <div class="hours-item hours-item--closed"><dt>Thứ Bảy</dt><dd>Đóng cửa</dd></div>
+          <div class="hours-item hours-item--closed"><dt>Chủ Nhật</dt><dd>Đóng cửa</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h2 class="contact-title">Liên Hệ</h2>
+          <p class="contact-desc">Chúng tôi luôn sẵn sàng hỗ trợ bạn. Vui lòng điền thông tin vào mẫu bên dưới để gửi câu hỏi hoặc yêu cầu hỗ trợ. Đội ngũ của chúng tôi sẽ phản hồi bạn sớm nhất có thể.</p>
+          <ul class="contact-list">
+            <li class="contact-item"><span class="contact-icon">{{fa-light-location-dot}}</span><div><h3>Address</h3><p>Tầng 27, Tháp A2, Tòa nhà Viettel, 285 Cách mạng tháng 8, phường Hòa Hưng,TPHCM</p></div></li>
+            <li class="contact-item"><span class="contact-icon">{{fa-light-phone}}</span><div><h3>Hotline</h3><p><a href="tel:0772916169">077.291.6169</a></p></div></li>
+            <li class="contact-item"><span class="contact-icon">{{fa-light-envelope}}</span><div><h3>Email:</h3><p><a href="mailto:tapdoanvinagroup@gmail.com">tapdoanvinagroup@gmail.com</a></p></div></li>
+          </ul>
+        </div>
+        <div class="contact-form-wrap">
+          <h3 class="form-title">Thông Tin Liên Lạc</h3>
+          <form class="contact-form" id="contact-form" action="mailto:tapdoanvinagroup@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Full Name" aria-label="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" aria-label="Email Address" required>
+            <textarea name="message" rows="4" placeholder="Your Message" aria-label="Your Message" required></textarea>
+            <label class="form-check"><input type="checkbox" name="privacy" required> I have read and understand the privacy policy.</label>
+            <div class="form-captcha">
+              <span class="captcha-question" id="captcha-q" aria-live="polite">3 + 4 = ?</span>
+              <input type="text" name="captcha" inputmode="numeric" aria-labelledby="captcha-q" required>
+              <button type="button" class="captcha-refresh" aria-label="Đổi câu hỏi khác">{{fa-light-arrows-rotate}}</button>
+            </div>
+            <button type="submit" class="btn btn--block">Gửi Thông Tin</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
