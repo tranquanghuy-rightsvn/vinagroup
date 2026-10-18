@@ -119,7 +119,8 @@ VIII. Kiến trúc lưu trữ:
        của playbook có chủ đích: design gốc thuộc repo khác, scaffold 1 lần sẽ lỗi thời.
      - vá vùng thẻ tin trong html/tin-tuc/index.html (giữa <!--cms:posts-begin/end-->).
      - vá khối "Tin Tức" trang chủ html/index.html: mục nào có anchor_name trùng tiêu đề bài
-       CMS thì link "Tìm hiểu thêm" trỏ thẳng tới bài + ảnh = ảnh bìa bài (đổi tiêu đề bài là
+       CMS thì tiêu đề (cột trái, chuyển tin bằng hover) + link "Tìm hiểu thêm" trỏ thẳng tới
+       bài, ảnh = ảnh bìa bài (đổi tiêu đề bài là
        mất khớp, mục đó giữ nguyên markup gốc).
      - vá form html/lien-he/index.html (mục V).
      - gọi scripts/seo/apply-seo.py (SEO trang tĩnh, robots.txt, sitemap.xml gồm cả bài, 404).

@@ -284,20 +284,36 @@ HOME_NEWS_ITEM_RE = re.compile(
 )
 
 
+# Cột tiêu đề bên trái của khối đó: chuyển tin bằng HOVER (main.min.js .content-left-item.hover),
+# nên gắn link bài vào tiêu đề không ảnh hưởng hiệu ứng - click là mở bài.
+HOME_NEWS_TITLE_RE = re.compile(
+    r'(<p index="\d+" class="content-left-item[^"]*"><img [^>]*><a href=")[^"]*(" class="ml-3">)([^<]*)(</a>)'
+)
+
+
 def patch_home_news(posts):
     path = SITE / "index.html"
     src = path.read_text(encoding="utf-8")
     by_title = {p["title"].strip().lower(): p for p in posts}
     linked = []
 
-    def repl(m):
-        p = by_title.get(html.unescape(m[4]).strip().lower())
+    def find(title):
+        return by_title.get(html.unescape(title).strip().lower())
+
+    def repl_item(m):
+        p = find(m[4])
         if not p:
             return m[0]
         linked.append(p["slug"])
         return m[1] + UPLOAD_PREFIX.lstrip("/") + p["cover"] + m[2] + f"tin-tuc/{p['slug']}/" + m[3]
 
-    path.write_text(HOME_NEWS_ITEM_RE.sub(repl, src), encoding="utf-8")
+    def repl_title(m):
+        p = find(m[3])
+        return m[1] + f"tin-tuc/{p['slug']}/" + m[2] + m[3] + m[4] if p else m[0]
+
+    src = HOME_NEWS_ITEM_RE.sub(repl_item, src)
+    src = HOME_NEWS_TITLE_RE.sub(repl_title, src)
+    path.write_text(src, encoding="utf-8")
     return linked
 
 
