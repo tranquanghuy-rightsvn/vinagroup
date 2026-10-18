@@ -751,7 +751,7 @@ Email: tapdoanvinagroup@gmail.com</p><a href="../lien-he/" target="_self" class=
       <div class="col-12 col-lg-6">
          <span class="section-kicker">Gửi Yêu Cầu</span>
          <h2 class="uob-h2 mb-4">Gửi Yêu Cầu Hỗ Trợ</h2>
-         <form id="vgContactForm" action="#" onsubmit="try{var n=document.getElementById('vgName').value,e=document.getElementById('vgEmail').value,s=document.getElementById('vgSubject').value||'Yêu cầu hỗ trợ từ website',m=document.getElementById('vgMessage').value;window.location.href='mailto:tapdoanvinagroup@gmail.com?subject='+encodeURIComponent(s)+'&amp;body='+encodeURIComponent('Họ tên: '+n+'\nEmail: '+e+'\n\n'+m);}catch(err){} return false;">
+         <form id="vgContactForm" action="#" data-cms="contact">
             <div class="vg-form-group">
                <label class="vg-form-label" for="vgName">Họ và tên</label>
                <input type="text" class="vg-form-control" id="vgName" placeholder="Nhập họ và tên của bạn" required>
@@ -768,8 +768,9 @@ Email: tapdoanvinagroup@gmail.com</p><a href="../lien-he/" target="_self" class=
                <label class="vg-form-label" for="vgMessage">Nội dung</label>
                <textarea class="vg-form-control" id="vgMessage" placeholder="Nội dung câu hỏi hoặc yêu cầu của bạn" required></textarea>
             </div>
+            <div aria-hidden="true" style="position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden"><label for="vgHp">Không điền ô này</label><input type="text" id="vgHp" name="_hp" tabindex="-1" autocomplete="off"></div>
             <button type="submit" class="vg-btn-submit">Gửi Yêu Cầu<svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M5 12H19M19 12L13 6M19 12L13 18" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
-            <p class="vg-form-note">Khi bấm "Gửi Yêu Cầu", ứng dụng email mặc định trên thiết bị của bạn sẽ mở ra với nội dung đã điền sẵn để gửi tới tapdoanvinagroup@gmail.com.</p>
+            <p class="vg-form-note" id="vgFormStatus" role="status" aria-live="polite">Chúng tôi sẽ phản hồi qua email trong thời gian sớm nhất.</p>
          </form>
       </div>
    </div>
@@ -954,5 +955,6 @@ Email: tapdoanvinagroup@gmail.com</p><a href="../lien-he/" target="_self" class=
 <script src="../assets/iwov-resources/js/custom.js"></script>
 <script src="../assets/iwov-resources/js/language-toggle.js"></script>
 <script src="../assets/iwov-resources/js/plugins/lity.min.js"></script>
-<script type="text/javascript">_satellite.pageBottom();</script><!--ls:end[body]--><!--ls:begin[page_track]--><!--ls:end[page_track]--></body>
+<script type="text/javascript">_satellite.pageBottom();</script><!--ls:end[body]--><!--ls:begin[page_track]--><!--ls:end[page_track]--><script src="/cms/contact.js" defer></script>
+</body>
 </html>

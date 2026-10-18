@@ -1,0 +1,46 @@
+# Build trang Tin tức từ data/ sau mỗi lần CMS Lưu/Xoá bài (GAS.md mục VIII).
+# Chỉ trigger theo data/posts.json - file CMS LUÔN ghi SAU CÙNG trong 1 thao tác. Trigger theo
+# cả data/** sẽ build ở commit dở dang (ảnh/detail đã lên nhưng danh sách chưa cập nhật).
+# Commit của CI chỉ đụng html/ nên không tự kích hoạt lại workflow này.
+name: Build site from CMS data
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - data/posts.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-site
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build
+        run: python3 scripts/build.py
+
+      - name: Commit html/
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898733+github-actions[bot]@users.noreply.github.com"
+          git add -A html
+          if git diff --cached --quiet; then
+            echo "Không có thay đổi"
+            exit 0
+          fi
+          git commit -m "CI: build html from data"
+          # CMS có thể vừa commit thêm trong lúc build - rebase lên bản mới nhất rồi mới push.
+          git pull --rebase origin master
+          git push origin HEAD:master

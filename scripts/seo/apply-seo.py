@@ -35,6 +35,8 @@ PAGE_TYPES = {
     "tin-tuc/": "CollectionPage",
 }
 
+GENERATED_MARKER = "<!--cms:generated-->"
+
 ROOT = Path(__file__).resolve().parents[2]
 SITE = ROOT / "html"
 PAGES = json.loads((Path(__file__).parent / "pages.json").read_text(encoding="utf-8"))
@@ -225,8 +227,12 @@ def main():
     found = set()
     for f in SITE.rglob("index.html"):
         rel = f.parent.relative_to(SITE)
-        if rel.parts[:1] not in (("assets",), ("docs",)):
-            found.add("" if rel == Path(".") else rel.as_posix() + "/")
+        if rel.parts[:1] in (("assets",), ("docs",), ("admin",), ("vendor",)):
+            continue
+        # Trang bài viết do scripts/build.py sinh ra tự mang SEO riêng (Article) - không đụng.
+        if GENERATED_MARKER in f.read_text(encoding="utf-8"):
+            continue
+        found.add("" if rel == Path(".") else rel.as_posix() + "/")
     missing = sorted(found - PAGES.keys())
     gone = sorted(PAGES.keys() - found)
     if missing:
@@ -240,11 +246,21 @@ def main():
     build_404()
 
     today = datetime.date.today().isoformat()
-    urls = "".join(
-        f"  <url>\n    <loc>{abs_url(p)}</loc>\n    <lastmod>{today}</lastmod>\n"
-        f"    <changefreq>{PAGES[p].get('changefreq', 'monthly')}</changefreq>\n"
-        f"    <priority>{PAGES[p].get('priority', '0.8' if p.count('/') == 1 else '0.6')}</priority>\n  </url>\n"
+    entries = [
+        (abs_url(p), today, PAGES[p].get("changefreq", "monthly"),
+         PAGES[p].get("priority", "0.8" if p.count("/") == 1 else "0.6"))
         for p in pages
+    ]
+    # Bài viết CMS (data/posts.json) - trang chi tiết do scripts/build.py sinh ra.
+    posts_file = ROOT / "data" / "posts.json"
+    if posts_file.is_file():
+        for post in json.loads(posts_file.read_text(encoding="utf-8")):
+            lastmod = str(post.get("updated_at") or post.get("date") or today)[:10]
+            entries.append((abs_url(f"tin-tuc/{post['slug']}/"), lastmod, "monthly", "0.6"))
+    urls = "".join(
+        f"  <url>\n    <loc>{loc}</loc>\n    <lastmod>{lastmod}</lastmod>\n"
+        f"    <changefreq>{freq}</changefreq>\n    <priority>{prio}</priority>\n  </url>\n"
+        for loc, lastmod, freq, prio in entries
     )
     (SITE / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'

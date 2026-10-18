@@ -10,3 +10,7 @@ html/.work/shots/
 
 # OS files
 .DS_Store
+
+# GAS backend (deploy bằng clasp, không đẩy lên git - xem GAS.md)
+gas/
+__pycache__/
