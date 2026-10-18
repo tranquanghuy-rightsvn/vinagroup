@@ -5,7 +5,7 @@
  */
 (function () {
   // URL web app /exec của CMS - điền sau khi deploy (gas/README.md bước 6).
-  var GAS_EXEC_URL = '';
+  var GAS_EXEC_URL = 'https://script.google.com/macros/s/AKfycbx4jwZfFsbAKZlzz3M-hK_bXLG8Rg9wj_PiS3lYPZQqYFuA1i7J35kqwXjgqez8Tj2m/exec';
 
   var form = document.getElementById('vgContactForm');
   if (!form) return;
