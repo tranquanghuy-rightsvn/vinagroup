@@ -204,4 +204,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
+  <url>
+    <loc>https://vina-group.com.vn/tin-tuc/chien-luoc-phan-bo-tai-san-dai-han/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://vina-group.com.vn/tin-tuc/xu-huong-dong-von-tren-thi-truong-tai-chinh/</loc>
+    <lastmod>2026-10-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://vina-group.com.vn/tin-tuc/quan-tri-rui-ro-trong-dau-tu-chung-khoan/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>

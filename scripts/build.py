@@ -5,8 +5,9 @@
   2. html/tin-tuc/<slug>/      : trang chi tiết mỗi bài, dựng từ CHÍNH html/tin-tuc/index.html
                                  (header/footer luôn khớp giao diện mới nhất của repo thien).
   3. html/tin-tuc/index.html   : vá vùng thẻ tin (bài CMS mới nhất trước, rồi thẻ legacy).
-  4. html/lien-he/index.html   : vá form Liên hệ gửi về CMS thay cho mailto: (GAS.md mục V).
-  5. Xoá html/tin-tuc/<slug>/ mồ côi (bài đã xoá khỏi CMS).
+  4. html/index.html           : khối "Tin Tức" trang chủ - link "Tìm hiểu thêm" + ảnh theo bài.
+  5. html/lien-he/index.html   : vá form Liên hệ gửi về CMS thay cho mailto: (GAS.md mục V).
+  6. Xoá html/tin-tuc/<slug>/ mồ côi (bài đã xoá khỏi CMS).
 
 Idempotent - chạy lại nhiều lần không sinh thêm diff. Chỉ dùng Python stdlib.
 Usage: python3 scripts/build.py
@@ -271,6 +272,35 @@ def render_article(tpl, detail, related):
     return out
 
 
+# ---------------------------------------------------------------- trang chủ (khối Tin Tức)
+
+# Mỗi mục trong khối "Tin Tức" trang chủ (markup repo thien): ảnh + mô tả + link "Tìm hiểu thêm"
+# có anchor_name="<tiêu đề viết thường>:tìm hiểu thêm". Khớp theo tiêu đề bài CMS -> link thẳng
+# tới bài + ảnh bìa của bài. Không khớp bài nào thì giữ nguyên (không báo lỗi).
+HOME_NEWS_ITEM_RE = re.compile(
+    r'(<div class="content-item-block[^"]*">\s*<div><img [^>]*?src=")[^"]*("[^>]*></div>.*?<a href=")[^"]*'
+    r'(" class="dtm-link text-link[^"]*" anchor_name="([^":]*):tìm hiểu thêm")',
+    re.S,
+)
+
+
+def patch_home_news(posts):
+    path = SITE / "index.html"
+    src = path.read_text(encoding="utf-8")
+    by_title = {p["title"].strip().lower(): p for p in posts}
+    linked = []
+
+    def repl(m):
+        p = by_title.get(html.unescape(m[4]).strip().lower())
+        if not p:
+            return m[0]
+        linked.append(p["slug"])
+        return m[1] + UPLOAD_PREFIX.lstrip("/") + p["cover"] + m[2] + f"tin-tuc/{p['slug']}/" + m[3]
+
+    path.write_text(HOME_NEWS_ITEM_RE.sub(repl, src), encoding="utf-8")
+    return linked
+
+
 # ---------------------------------------------------------------- /lien-he/ (form)
 
 def patch_contact_form():
@@ -325,9 +355,11 @@ def main():
             shutil.rmtree(d)
             print(f"removed orphan html/tin-tuc/{d.name}/")
 
-    patch_news_list([p for p in posts if p["slug"] in valid], legacy)
+    built = [p for p in posts if p["slug"] in valid]
+    patch_news_list(built, legacy)
+    home = patch_home_news(built)
     patch_contact_form()
-    print(f"build: {len(valid)} bài viết, {len(legacy)} thẻ legacy, form liên hệ OK")
+    print(f"build: {len(valid)} bài viết, {len(legacy)} thẻ legacy, trang chủ link {len(home)} bài, form liên hệ OK")
 
 
 if __name__ == "__main__":

@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "slug": "chien-luoc-phan-bo-tai-san-dai-han",
+    "title": "Chiến Lược Phân Bổ Tài Sản Dài Hạn",
+    "description": "Cách xây dựng danh mục đầu tư cân bằng giữa cổ phiếu, trái phiếu và tiền mặt, hướng đến mục tiêu tài chính bền vững.",
+    "category": "Kiến thức đầu tư",
+    "date": "2026-10-17",
+    "cover": "chien-luoc-phan-bo-tai-san-dai-han-cover.jpg",
+    "cover_alt": "Chiến Lược Phân Bổ Tài Sản Dài Hạn",
+    "updated_at": "2026-10-17T02:00:00Z"
+  },
+  {
+    "slug": "xu-huong-dong-von-tren-thi-truong-tai-chinh",
+    "title": "Xu Hướng Dòng Vốn Trên Thị Trường Tài Chính",
+    "description": "Góc nhìn tổng quan về các dòng vốn đang dẫn dắt thị trường tài chính Việt Nam và cách nhà đầu tư nhận diện cơ hội.",
+    "category": "Thị trường",
+    "date": "2026-10-13",
+    "cover": "xu-huong-dong-von-tren-thi-truong-tai-chinh-cover.jpg",
+    "cover_alt": "Xu Hướng Dòng Vốn Trên Thị Trường Tài Chính",
+    "updated_at": "2026-10-13T02:00:00Z"
+  },
+  {
+    "slug": "quan-tri-rui-ro-trong-dau-tu-chung-khoan",
+    "title": "Quản Trị Rủi Ro Trong Đầu Tư Chứng Khoán",
+    "description": "Những nguyên tắc cốt lõi giúp nhà đầu tư kiểm soát rủi ro và bảo toàn vốn trong danh mục đầu tư chứng khoán.",
+    "category": "Kiến thức đầu tư",
+    "date": "2026-10-08",
+    "cover": "quan-tri-rui-ro-trong-dau-tu-chung-khoan-cover.jpg",
+    "cover_alt": "Quản Trị Rủi Ro Trong Đầu Tư Chứng Khoán",
+    "updated_at": "2026-10-08T02:00:00Z"
+  }
+]

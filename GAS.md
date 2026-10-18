@@ -109,14 +109,18 @@ VIII. Kiến trúc lưu trữ:
    - GitHub (Contents API, repo site):
      - data/posts.json              index nhẹ mọi bài (commit CHỐT, trigger CI)
      - data/tin-tuc/<slug>.json     nội dung đầy đủ 1 bài
-     - data/legacy-posts.json       3 thẻ tin viết tay có sẵn (không có trang chi tiết);
-                                    CMS không đụng, build.py liệt kê sau bài CMS.
+     - data/legacy-posts.json       thẻ tin viết tay không có trang chi tiết (hiện rỗng: 3 thẻ
+                                    cũ đã được viết thành bài CMS thật); CMS không đụng,
+                                    build.py liệt kê sau bài CMS.
      - html/uploads/tin-tuc/*       ảnh bài viết (ghi thẳng vào vị trí site)
    - Build (scripts/build.py, GitHub Actions khi data/posts.json đổi):
      - html/tin-tuc/<slug>/index.html  dựng từ CHÍNH html/tin-tuc/index.html lúc build (giữ
        đồng bộ header/footer khi repo thien đổi giao diện) - lệch khỏi mặc định "templates/"
        của playbook có chủ đích: design gốc thuộc repo khác, scaffold 1 lần sẽ lỗi thời.
      - vá vùng thẻ tin trong html/tin-tuc/index.html (giữa <!--cms:posts-begin/end-->).
+     - vá khối "Tin Tức" trang chủ html/index.html: mục nào có anchor_name trùng tiêu đề bài
+       CMS thì link "Tìm hiểu thêm" trỏ thẳng tới bài + ảnh = ảnh bìa bài (đổi tiêu đề bài là
+       mất khớp, mục đó giữ nguyên markup gốc).
      - vá form html/lien-he/index.html (mục V).
      - gọi scripts/seo/apply-seo.py (SEO trang tĩnh, robots.txt, sitemap.xml gồm cả bài, 404).
    - scripts/sync-from-thien.sh giữ lại html/uploads, html/admin, html/vendor, html/cms,
