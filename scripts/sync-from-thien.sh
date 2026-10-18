@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Sync html/ from the "thien" remote (thien/master:v2), then commit + push to origin.
 # Usage: bash scripts/sync-from-thien.sh
+# SEO data per page: scripts/seo/pages.json (new pages from thien need an entry there).
 set -euo pipefail
 cd "$(git rev-parse --show-toplevel)"
 
@@ -15,6 +16,9 @@ rm -rf html && mkdir html
 git archive thien/master v2 | tar -x --strip-components=1 -C html
 cp "$keep"/wrangler.jsonc "$keep"/.assetsignore html/ 2>/dev/null || true
 rm -rf "$keep"
+
+# Re-apply SEO tags + regenerate robots.txt, sitemap.xml, 404.html
+python3 scripts/seo/apply-seo.py
 
 git add -A html
 if git diff --cached --quiet; then

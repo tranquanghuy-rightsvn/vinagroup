@@ -1,0 +1,181 @@
+{
+  "": {
+    "name": "Trang Chủ",
+    "title": "Vina Group – Tập Đoàn Đầu Tư Tài Chính & Chứng Khoán Việt Nam",
+    "description": "Vina Group cung cấp giải pháp tư vấn đầu tư, dịch vụ mua bán cổ phiếu, trái phiếu, phái sinh và hợp tác dự án trên thị trường chứng khoán Việt Nam.",
+    "priority": "1.0",
+    "changefreq": "weekly"
+  },
+  "gioi-thieu/": {
+    "name": "Giới Thiệu",
+    "title": "Giới Thiệu | Vina Group",
+    "description": "Tìm hiểu về Vina Group: hành trình hình thành, tầm nhìn, sứ mệnh, phong cách đầu tư, ban lãnh đạo và mạng lưới đối tác của tập đoàn tài chính hàng đầu Việt Nam."
+  },
+  "gioi-thieu/gioi-thieu-cong-ty/": {
+    "name": "Giới Thiệu Công Ty",
+    "title": "Giới Thiệu Công Ty | Vina Group",
+    "description": "Vina Group – tập đoàn tài chính cung cấp dịch vụ đầu tư đa dạng trên sàn chứng khoán, cam kết phát triển bền vững giá trị cho cổ đông và khách hàng."
+  },
+  "gioi-thieu/phong-cach-dau-tu/": {
+    "name": "Phong Cách, Triết Lý & Năng Lực Đầu Tư",
+    "title": "Phong Cách, Triết Lý & Năng Lực Đầu Tư | Vina Group",
+    "description": "Quy trình nghiên cứu đầu tư nghiêm túc, kỷ luật cùng đội ngũ chuyên gia giàu kinh nghiệm thực chiến – nền tảng cho lợi nhuận lâu dài tại Vina Group."
+  },
+  "gioi-thieu/nang-luc-dau-tu-co-dong/": {
+    "name": "Năng Lực Đầu Tư Cổ Đông",
+    "title": "Năng Lực Đầu Tư Cổ Đông | Vina Group",
+    "description": "Năng lực đầu tư của Vina Group: kết hợp lựa chọn cổ phiếu từ trên xuống và từ dưới lên, am hiểu sâu sắc thị trường chứng khoán và doanh nghiệp Việt Nam."
+  },
+  "gioi-thieu/hoi-dong-quan-tri/": {
+    "name": "Hội Đồng Quản Trị",
+    "title": "Hội Đồng Quản Trị | Vina Group",
+    "description": "Hội Đồng Quản Trị Vina Group – cơ quan quản trị cao nhất, hoạch định chiến lược phát triển dài hạn, giám sát hoạt động điều hành và bảo vệ lợi ích cổ đông."
+  },
+  "gioi-thieu/ban-dieu-hanh/": {
+    "name": "Ban Điều Hành",
+    "title": "Ban Điều Hành | Vina Group",
+    "description": "Ban Điều Hành Vina Group – đội ngũ chuyên gia tài chính giàu kinh nghiệm, triển khai chiến lược đầu tư minh bạch và quản trị rủi ro chặt chẽ."
+  },
+  "gioi-thieu/doi-tac/": {
+    "name": "Đối Tác",
+    "title": "Đối Tác | Vina Group",
+    "description": "Mạng lưới đối tác của Vina Group: quỹ đầu tư, tổ chức tài chính, ngân hàng lưu ký, công ty chứng khoán và doanh nghiệp Pre-IPO tiềm năng."
+  },
+  "gioi-thieu/co-hoi-nghe-nghiep/": {
+    "name": "Cơ Hội Nghề Nghiệp",
+    "title": "Cơ Hội Nghề Nghiệp | Vina Group",
+    "description": "Gia nhập Vina Group – môi trường làm việc thân thiện, gắn kết như gia đình, cùng phát triển sự nghiệp trong lĩnh vực đầu tư tài chính và chứng khoán."
+  },
+  "gioi-thieu/quy-dinh/": {
+    "name": "Quy Định",
+    "title": "Quy Định | Vina Group",
+    "description": "Các quy định, chính sách hoạt động và chuẩn mực tuân thủ của CÔNG TY CỔ PHẦN TẬP ĐOÀN VINA GROUP theo pháp luật Việt Nam."
+  },
+  "linh-vuc-dau-tu/": {
+    "name": "Lĩnh Vực Đầu Tư",
+    "title": "Lĩnh Vực Đầu Tư | Vina Group",
+    "description": "Các lĩnh vực đầu tư của Vina Group: đầu tư tự doanh, quỹ đầu tư, cổ phiếu, trái phiếu, phái sinh, hợp tác dự án và tư vấn quản lý doanh nghiệp."
+  },
+  "linh-vuc-dau-tu/dau-tu-tu-doanh/": {
+    "name": "Đầu Tư Tự Doanh",
+    "title": "Đầu Tư Tự Doanh | Vina Group",
+    "description": "Dịch vụ quản lý danh mục đầu tư ủy thác của Vina Group: danh mục riêng trên thị trường chứng khoán, theo tiêu chí và khẩu vị rủi ro từng khách hàng."
+  },
+  "linh-vuc-dau-tu/tu-van-quan-ly-doanh-nghiep/": {
+    "name": "Tư Vấn Quản Lý Doanh Nghiệp",
+    "title": "Tư Vấn Quản Lý Doanh Nghiệp | Vina Group",
+    "description": "Dịch vụ tư vấn đầu tư và quản lý doanh nghiệp của Vina Group, đáp ứng những yêu cầu đầu tư phức tạp nhờ am hiểu sâu thị trường chứng khoán Việt Nam."
+  },
+  "linh-vuc-dau-tu/quy-dau-tu/": {
+    "name": "Quỹ Đầu Tư",
+    "title": "Dịch Vụ Đầu Tư | Vina Group",
+    "description": "Dịch vụ đầu tư đa dạng trên sàn chứng khoán Việt Nam của Vina Group: cổ phiếu, trái phiếu, phái sinh, nghiên cứu thị trường và hợp tác dự án tiềm năng."
+  },
+  "linh-vuc-dau-tu/quy-dau-tu/dau-tu-co-phieu-tu-doanh/": {
+    "name": "Đầu Tư Cổ Phiếu Tự Doanh",
+    "title": "Đầu Tư Cổ Phiếu Tự Doanh | Vina Group",
+    "description": "Vina Group cung cấp thông tin và dịch vụ mua bán cổ phiếu trên sàn chứng khoán Việt Nam với quy trình chuyên nghiệp, minh bạch và quản trị rủi ro chặt chẽ."
+  },
+  "linh-vuc-dau-tu/quy-dau-tu/tu-doanh-trai-phieu/": {
+    "name": "Tự Doanh Trái Phiếu",
+    "title": "Tự Doanh Trái Phiếu | Vina Group",
+    "description": "Dịch vụ đầu tư trái phiếu an toàn của Vina Group: tối ưu lợi suất, quản lý rủi ro, xây dựng danh mục phù hợp với mục tiêu tài chính dài hạn."
+  },
+  "linh-vuc-dau-tu/quy-dau-tu/tu-doanh-phai-sinh/": {
+    "name": "Tự Doanh Phái Sinh",
+    "title": "Tự Doanh Phái Sinh | Vina Group",
+    "description": "Dịch vụ giao dịch phái sinh linh hoạt của Vina Group giúp phòng ngừa rủi ro, bảo vệ và tối ưu lợi nhuận danh mục trước biến động thị trường."
+  },
+  "linh-vuc-dau-tu/quy-dau-tu/nghien-cuu-phan-tich-thi-truong/": {
+    "name": "Nghiên Cứu & Phân Tích Thị Trường",
+    "title": "Nghiên Cứu & Phân Tích Thị Trường | Vina Group",
+    "description": "Vina Group phân tích xu hướng thị trường, cung cấp insight và dự báo chiến lược giúp nhà đầu tư ra quyết định chính xác, kịp thời."
+  },
+  "linh-vuc-dau-tu/quy-dau-tu/hop-tac-du-an-tiem-nang/": {
+    "name": "Hợp Tác Dự Án Tiềm Năng",
+    "title": "Hợp Tác Dự Án Tiềm Năng | Vina Group",
+    "description": "Vina Group tìm kiếm, thẩm định và đồng hành cùng các dự án đầu tư tiềm năng đa ngành, tối đa hóa giá trị tài sản cho cổ đông, đối tác và nhà đầu tư."
+  },
+  "phat-trien-ben-vung/": {
+    "name": "Phát Triển Bền Vững",
+    "title": "Phát Triển Bền Vững | Vina Group",
+    "description": "Cam kết phát triển bền vững của Vina Group: đầu tư có trách nhiệm, lồng ghép ESG và đặt lợi ích dài hạn của cổ đông, khách hàng làm trọng tâm."
+  },
+  "phat-trien-ben-vung/dau-tu-ben-vung/": {
+    "name": "Đầu Tư Bền Vững",
+    "title": "Đầu Tư Bền Vững | Vina Group",
+    "description": "Vina Group xây dựng hệ sinh thái đầu tư minh bạch, bền vững, đồng hành cùng sự phát triển thịnh vượng của nền kinh tế Việt Nam."
+  },
+  "phat-trien-ben-vung/dau-tu-ben-vung/dau-tu-ben-vung-la-gi/": {
+    "name": "Đầu Tư Bền Vững Là Gì?",
+    "title": "Đầu Tư Bền Vững Là Gì? | Vina Group",
+    "description": "Đầu tư bền vững kết hợp nguyên tắc đầu tư truyền thống với các yếu tố Môi trường, Xã hội và Quản trị (ESG) nhằm cải thiện hiệu quả đầu tư dài hạn."
+  },
+  "phat-trien-ben-vung/dau-tu-ben-vung/cam-ket-ben-vung/": {
+    "name": "Cam Kết Bền Vững Của Chúng Tôi",
+    "title": "Cam Kết Bền Vững Của Chúng Tôi | Vina Group",
+    "description": "Vina Group cam kết xây dựng giá trị dài hạn, tăng trưởng bền vững cho danh mục đầu tư và minh bạch cao nhất trong mọi hoạt động, báo cáo gửi tới cổ đông."
+  },
+  "phat-trien-ben-vung/dau-tu-ben-vung/giai-phap-dau-tu-ben-vung/": {
+    "name": "Giải Pháp Cho Đầu Tư Bền Vững",
+    "title": "Giải Pháp Cho Đầu Tư Bền Vững | Vina Group",
+    "description": "Giải pháp đầu tư bền vững của Vina Group: lồng ghép yếu tố môi trường, xã hội và quản trị (ESG) vào quy trình phân tích và lựa chọn cơ hội đầu tư."
+  },
+  "phat-trien-ben-vung/dau-tu-ben-vung/phuong-phap-tiep-can-dau-tu-ben-vung/": {
+    "name": "Phương Pháp Tiếp Cận Đầu Tư Bền Vững",
+    "title": "Phương Pháp Tiếp Cận Đầu Tư Bền Vững | Vina Group",
+    "description": "Phương pháp tiếp cận đầu tư bền vững của Vina Group: quản trị rủi ro chặt chẽ, tuân thủ pháp luật, minh bạch thông tin và bảo vệ lợi ích dài hạn của cổ đông."
+  },
+  "quan-he-co-dong/": {
+    "name": "Quan Hệ Cổ Đông",
+    "title": "Quan Hệ Cổ Đông | Vina Group",
+    "description": "Thông tin dành cho cổ đông Vina Group: kết quả kinh doanh, đại hội đồng cổ đông, cổ tức, công bố thông tin, báo cáo tài chính và điều lệ công ty."
+  },
+  "quan-he-co-dong/cong-bo-thong-tin/": {
+    "name": "Công Bố Thông Tin",
+    "title": "Công Bố Thông Tin | Vina Group",
+    "description": "Công bố thông tin định kỳ và bất thường của CÔNG TY CỔ PHẦN TẬP ĐOÀN VINA GROUP dành cho cổ đông và nhà đầu tư."
+  },
+  "quan-he-co-dong/bao-cao-tai-chinh-cong-ty/": {
+    "name": "Báo Cáo Tài Chính Công Ty",
+    "title": "Báo Cáo Tài Chính Công Ty | Vina Group",
+    "description": "Báo cáo tài chính định kỳ của CÔNG TY CỔ PHẦN TẬP ĐOÀN VINA GROUP được công bố công khai, minh bạch theo quy định."
+  },
+  "quan-he-co-dong/dieu-le-cong-ty/": {
+    "name": "Điều Lệ Công Ty",
+    "title": "Điều Lệ Công Ty | Vina Group",
+    "description": "Điều lệ Công ty Cổ phần Tập đoàn Vina Group quy định cơ cấu tổ chức, quản trị, quyền và nghĩa vụ của cổ đông theo pháp luật Việt Nam."
+  },
+  "tin-tuc/": {
+    "name": "Tin Tức",
+    "title": "Tin Tức | Vina Group",
+    "description": "Tin tức, góc nhìn thị trường và kiến thức đầu tư từ Vina Group: quản trị rủi ro, dòng vốn và cơ hội trên thị trường tài chính Việt Nam.",
+    "changefreq": "weekly"
+  },
+  "lien-he/": {
+    "name": "Liên Hệ",
+    "title": "Liên Hệ | Vina Group",
+    "description": "Liên hệ Vina Group: Tầng 27, Tháp A2, Tòa nhà Viettel, 285 Cách Mạng Tháng 8, TP. Hồ Chí Minh. Hotline 077.291.6169, email tapdoanvinagroup@gmail.com."
+  },
+  "bao-mat/": {
+    "name": "Thông Báo Bảo Mật",
+    "title": "Quyền Riêng Tư & Bảo Mật | Vina Group",
+    "description": "Chính sách quyền riêng tư và bảo mật của Vina Group – cam kết bảo vệ thông tin cá nhân của khách hàng và nhà đầu tư theo quy định pháp luật Việt Nam.",
+    "priority": "0.3",
+    "changefreq": "yearly"
+  },
+  "mien-tru-trach-nhiem/": {
+    "name": "Quyền Miễn Trừ Trách Nhiệm",
+    "title": "Quyền Miễn Trừ Trách Nhiệm | Vina Group",
+    "description": "Thông tin trên website Vina Group chỉ dùng để tham khảo, không cấu thành lời khuyên đầu tư. Mọi hoạt động đầu tư đều tiềm ẩn rủi ro.",
+    "priority": "0.3",
+    "changefreq": "yearly"
+  },
+  "so-do-trang/": {
+    "name": "Sơ Đồ Trang",
+    "title": "Sơ Đồ Trang | Vina Group",
+    "description": "Sơ đồ trang website Vina Group – truy cập nhanh tất cả các trang giới thiệu, lĩnh vực đầu tư, phát triển bền vững, quan hệ cổ đông và liên hệ.",
+    "priority": "0.3",
+    "changefreq": "monthly"
+  }
+}
