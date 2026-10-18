@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/Chevron/Up</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.129412 0 0 0 0 0.129412 0 0 0 0 0.129412 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Icons/Chevron/Up" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="Up">
+            <g transform="translate(4.000000, 10.000000)">
+                <path d="M11.2929,0.29289 C11.6834,-0.09763 12.3166,-0.09763 12.7071,0.29289 L23.7071,11.2929 C24.0976,11.6834 24.0976,12.3166 23.7071,12.7071 C23.3166,13.0976 22.6834,13.0976 22.2929,12.7071 L12,2.4142 L1.70711,12.7071 C1.31658,13.0976 0.68342,13.0976 0.29289,12.7071 C-0.09763,12.3166 -0.09763,11.6834 0.29289,11.2929 L11.2929,0.29289 Z" id="Path" fill="#585858"></path>
+            </g>
+        </g>
+    </g>
+</svg>

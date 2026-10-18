@@ -1,0 +1,273 @@
+:root {
+  --primary: #0f6b3f;
+  --primary-dark: #0b5530;
+  --primary-darker: #073a20;
+  --primary-light: #22a06b;
+  --text-primary-light: #212529;
+  --text-primary: #212121;
+
+  --visionary-dark: #0b5530;
+  --visionary: #0f6b3f;
+  --visionary-light: #5fae84;
+  --visionary-lightest: #c7e3d4;
+
+  --gray-100: #efefef;
+  --gray-150: #ececf6;
+  --gray-160: #e9ecef;
+  --gray-175: #dee2e6;
+  --gray-200: #d6d8d9;
+  --gray-300: #c6c8ca;
+  --gray-400: #b9bbbe;
+  --gray-500: #95999c;
+  --gray-550: #919192;
+  --gray-600: #6e6e6e;
+  --gray-700: #343a40;
+  --gray-800: #2b2e31;
+
+  --alpha-0: 0;
+  --alpha-1: 0.1;
+  --alpha-2: 0.2;
+  --alpha-3: 0.3;
+  --alpha-4: 0.4;
+  --alpha-5: 0.5;
+  --alpha-6: 0.6;
+  --alpha-7: 0.7;
+  --alpha-8: 0.8;
+  --alpha-9: 0.9;
+  --alpha-10: 1;
+
+  --rgb-33: 33,33,33;
+  --rgb-0: 0,0,0;
+
+  /* Bootstrap override */
+  --blue:#007bff;
+  --indigo:#6610f2;
+  --purple:#6f42c1;
+  --pink:#e83e8c;
+  --asean-red:#fb002c;
+  --red:#dc3545;
+  --orange:#fd7e14;
+  --yellow:#ffc107;
+  --green:#28a745;
+  --teal:#20c997;
+  --cyan:#17a2b8;
+  --white:#ffffff;
+  --gray:#6c757d;
+  --gray-dark:#343a40;
+  /* --primary:#007bff; */
+  --secondary:#6c757d;
+  --success:#28a745;
+  --info:#17a2b8;
+  --warning:#ffc107;
+  --danger:#dc3545;
+  --light:#f8f9fa;
+  --dark:#343a40;
+
+  /* Custom Colors */
+  /* Black */  
+  --black-0:  #999999;
+  --black-1:  #8990a1;
+  --black-2:  #777777;
+  --black-3:  #515151;
+  --black-4:  #424242;
+  --black-5:  #414141;
+  --black-6:  #333333;
+  --black-7:  #2b2b2b;
+  --black-8:  #23272b;
+  --black-9:  #1d2124;
+  --black-10: #181818;
+  --black-11: #131516;
+  --black-12: #121416;
+  --black-13: #16181b;
+  --black-14: #171a1d;
+  --black-15: #101010;
+  --black:    #000000;
+
+  /* Gray Dark */  
+  --gray-dark-1: #5a6268;
+  --gray-dark-2: #545b62;
+  --gray-dark-3: #4e555b;
+  --gray-dark-4: #495057;
+  --gray-dark-5: #494f54;
+  --gray-dark-6: #484d51;
+  --gray-dark-7: #454d55;
+  --gray-dark-8: #425f68;
+  --gray-dark-9: #303336;
+
+  /* Light */
+  --light-0:  #fefefe;
+  --light-1:  #fdfdfe;
+  --light-2:  #fbfcfc;
+  --light-3:  #f9f9f9;
+  --light-4:  #f7f7f7;
+  --light-5:  #f5f5f5; 
+  --light-6:  #f2f7fb; 
+  --light-7:  #ebebeb;
+  --light-8:  #e9e9e9;
+  --light-8:  #e7e7e7;
+  --light-9:  #e6e6e6;
+  --light-10: #e5e5e5;
+  --light-11: #e2e3e5;
+  --light-12: #e2e6ea;  
+  --light-13: #dfdfdf; 
+  --light-14: #dae0e5;
+  --light-15: #d6d8db;
+  --light-16: #d3d9df; 
+  --light-17: #cfcfcf;
+  --light-18: #ced4da;
+  --light-19: #cacaca;
+  --light-20: #c8cbcf;
+  --light-21: #c3c3c3;
+  --light-22: #bebebe;
+  --light-23: #b3b7bb;
+  --light-24: #b2b2b2;
+  --light-25: #adb5bd;
+
+  /* Warning */  
+  --element-warning-0: #fcf8e3;
+  --element-warning-1: #ffeeba;
+  --element-warning-2: #ffe8a1;
+  --element-warning-3: #ffdf7e;  
+  --element-warning-4: #e0a800;
+  --element-warning-5: #d39e00;
+  --element-warning-6: #c69500;
+  --element-warning-7: #ba8b00;
+  --element-warning-8: #947413;
+  --element-warning-9: #726204;  
+
+
+  --copper-0: #bbaa9a;
+  --copper-1: #ac8080;
+  --copper-2: #946161;
+  --copper-3: #806660;
+  --copper-4: #7f5353;
+  --copper-5: #59423d;
+
+
+  /* Danger */  
+  --element-danger-0: #eee0d3;
+  --element-danger-1: #f8d7da;
+  --element-danger-2: #f5c6cb;
+  --element-danger-3: #f1b0b7;
+  --element-danger-4: #ed969e;
+  --element-danger-5: #e4606d;
+  --element-danger-6: #dc1f2d;
+  --element-danger-7: #c82333;
+  --element-danger-8: #bd2130;
+  --element-danger-9: #b21f2d;
+  --element-danger-10:#a71d2a;  
+  --element-danger-11:#822b34;
+  --element-danger-12:#5c1e25;
+  
+  
+  /* Success */
+  --element-success-0: #d4edda;
+  --element-success-1: #c3e6cb;
+  --element-success-2: #b1dfbb;
+  --element-success-3: #8fd19e;
+  --element-success-4: #34ce57;
+  --element-success-5: #218838;
+  --element-success-6: #1e7e34;
+  --element-success-7: #1c7430;
+  --element-success-8: #256734;
+  --element-success-9: #19692c;
+  --element-success-10: #184121;
+
+  --element-success-alternative-0: #d1ecf1;
+  --element-success-alternative-1: #BEE5EB;
+  --element-success-alternative-2: #ABDDE5;
+  --element-success-alternative-3: #86CFDA;
+  --element-success-alternative-4: #138496;
+  --element-success-alternative-5: #117A8B;
+  --element-success-alternative-6: #10707F;
+  --element-success-alternative-7: #1c6470;
+  --element-success-alternative-8: #0f6674;
+
+  /* Default */
+  --element-0:  #cce5ff;
+  --element-1:  #B8DAFF;  
+  --element-2:  #B3D7FF;
+  --element-3:  #9FCDFF;  
+  --element-4:  #8AC1EF;
+  --element-5:  #86BAE7;
+  --element-6:  #82B3DE;
+  --element-7:  #80BDFF;
+  --element-8:  #7ABAFF;  
+  --element-9:  #337AB7;
+  --element-10: #2E6DA4;  
+  --element-11: #1f6eda;  
+  --element-12: #0069d9;
+  --element-13: #0062CC;
+  --element-14: #005cbf;
+  --element-15: #0056B3;  
+  --element-16: #124047;
+  --element-17: #105094;
+  --element-18: #06377B;
+  --element-19: #0b3766;
+  --element-20: #002469;
+  --element-21: #00216f;
+  --element-22: #001F67;
+
+
+  /* Custom */
+  --custom-1: #f1f1f1;
+  --custom-2: #818181;
+  --custom-3: #fb811b;
+  --custom-4: #575757;
+  --custom-5: #ededed;
+  --custom-6: #edf5ff;
+  --custom-7: #071e33;
+  --custom-8: #d7dcd7;
+  --custom-9: #888;
+  --custom-10: #555;
+  --custom-11: #00458f;
+  --custom-12: #ccc;
+
+  /* Icons */
+  --ico-valid: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+  --ico-select: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e");
+  --ico-invalid: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+  --ico-checked-white: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23ffffff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
+  --ico-indeterminate-white:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3e%3cpath stroke='%23ffffff' d='M0 2h4'/%3e%3c/svg%3e");
+  --ico-radio-checked: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23ffffff'/%3e%3c/svg%3e");
+  --ico-hambuger: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 33, 33, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  --ico-hambuger-dark: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  --ico-info: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg%3E%3Cg transform='translate(-401 -2646) translate(401 2646)'%3E%3Cg%3E%3Cpath fill='%231f6eda' fill-rule='nonzero' d='M7.5 0C3.36 0 0 3.36 0 7.5 0 11.64 3.36 15 7.5 15c4.14 0 7.5-3.36 7.5-7.5C15 3.36 11.64 0 7.5 0zm0 11.25c-.412 0-.75-.338-.75-.75v-3c0-.412.338-.75.75-.75s.75.338.75.75v3c0 .412-.338.75-.75.75zm.75-6h-1.5v-1.5h1.5v1.5z' transform='translate(4.5 4.5)'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  --ico-info-hover: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg%3E%3Cg transform='translate(-401 -2646) translate(401 2646)'%3E%3Cg%3E%3Cpath fill='%23133359' fill-rule='nonzero' d='M7.5 0C3.36 0 0 3.36 0 7.5 0 11.64 3.36 15 7.5 15c4.14 0 7.5-3.36 7.5-7.5C15 3.36 11.64 0 7.5 0zm0 11.25c-.412 0-.75-.338-.75-.75v-3c0-.412.338-.75.75-.75s.75.338.75.75v3c0 .412-.338.75-.75.75zm.75-6h-1.5v-1.5h1.5v1.5z' transform='translate(4.5 4.5)'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  --ico-info-lady: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg%3E%3Cg transform='translate(-401 -2646) translate(401 2646)'%3E%3Cg%3E%3Cpath fill='%23806660' fill-rule='nonzero' d='M7.5 0C3.36 0 0 3.36 0 7.5 0 11.64 3.36 15 7.5 15c4.14 0 7.5-3.36 7.5-7.5C15 3.36 11.64 0 7.5 0zm0 11.25c-.412 0-.75-.338-.75-.75v-3c0-.412.338-.75.75-.75s.75.338.75.75v3c0 .412-.338.75-.75.75zm.75-6h-1.5v-1.5h1.5v1.5z' transform='translate(4.5 4.5)'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+
+  /* Icons with file */
+  --ico-chevron-down: url(../assets/Icons/icons-chevron-down-black.svg);
+  --ico-chevron-right: url(../assets/Icons/icons-chevron-right.svg);
+  --ico-chevron-left: url(../assets/Icons/icons-chevron-left.svg);
+
+  --ico-chevron-right--2nd: url(../assets/Icons/Chevron_Right.svg);
+  --ico-chevron-right--3rd: url(../assets/Icons/Chevron_Right-white.svg);
+  --ico-chevron-right--4th:url(../assets/Icons/icons-chevron-right-blue.svg);
+
+  --ico-exit: url(../assets/Icons/Exit.svg);
+  --ico-exit-white: url(../assets/Icons/icons-exit-white.svg);
+
+  --ico-preloader: url(../assets/Icons/Preloader.svg);
+  --ico-search: url(../assets/Icons/Search.svg);
+
+  --ico-arrow: url(../assets/Icons/icons-link-blue.svg);
+  --ico-arrow-2nd: url(https://www.uobam.com.vn/assets/iwov-resources/assets/Icons/icons-link-brown.svg);
+  --ico-plus: url(../assets/Icons/icons-plus.svg);
+  --ico-minus: url(../assets/Icons/icons-minus.svg);
+  --ico-qoute: url(https://www.uobam.com.vn/assets/iwov-resources/assets/Icons/quotation-white.svg);
+
+  --ico-important: url(../assets/Icons/icons-important.svg);
+
+  --logo-width: 86px;
+  --logo-max-width: unset;
+  --logo-height: 24px;
+}
+
+@media screen and (min-width: 992px) {
+  :root {
+    --logo-width: 107px;
+    --logo-max-width: unset;
+    --logo-height: 30px;    
+  }
+}

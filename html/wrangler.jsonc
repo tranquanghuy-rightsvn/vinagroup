@@ -1,14 +1,13 @@
 // Cloudflare Workers Static Assets — deploy with: npx wrangler deploy
-// Only ./dist is uploaded (regenerate it with: python3 .work/build/build.py)
+// Content is synced from thien/master:v2 (see scripts/sync-from-thien.sh)
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "vina-group-com-vn",
   "compatibility_date": "2026-10-08",
   "assets": {
-    "directory": "./dist",
-    // /gioi-thieu-cong-ty -> /gioi-thieu-cong-ty/ (matches canonical + sitemap)
+    "directory": "./",
+    // /gioi-thieu -> /gioi-thieu/ (clean URLs, like vercel.json cleanUrls)
     "html_handling": "auto-trailing-slash",
-    // unknown URLs get a real 404 status with dist/404.html (no soft-404)
     "not_found_handling": "404-page"
   },
   // Attach the real domain once the zone vina-group.com.vn is on this Cloudflare account:

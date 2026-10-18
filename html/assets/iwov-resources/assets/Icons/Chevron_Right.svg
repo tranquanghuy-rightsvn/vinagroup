@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/Chevron/Right</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.129412 0 0 0 0 0.129412 0 0 0 0 0.129412 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Icons/Chevron/Right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g filter="url(#filter-1)" id="Right">
+            <g transform="translate(10.000000, 4.000000)">
+                <path d="M0.2929,0.29289 C0.6834,-0.09763 1.3166,-0.09763 1.7071,0.29289 L12.7071,11.2929 C12.8946,11.4804 13,11.7348 13,12 C13,12.2652 12.8946,12.5196 12.7071,12.7071 L1.7071,23.7071 C1.3166,24.0976 0.6834,24.0976 0.2929,23.7071 C-0.0976,23.3166 -0.0976,22.6834 0.2929,22.2929 L10.5858,12 L0.2929,1.70711 C-0.0976,1.31658 -0.0976,0.68342 0.2929,0.29289 Z" id="Path" fill="#585858"></path>
+            </g>
+        </g>
+    </g>
+</svg>
