@@ -12144,9 +12144,6 @@ section.product-promotion-carousel {
   height:32px;
   background:var(--ico-arrow) no-repeat
 }
-.tile-card-group .card .card-footer .arrow-icon:hover{
-  animation:bounce .6s infinite
-}
 .tile-card-group .card .card-footer .arrow-icon:focus{
   border-radius:5px;
   box-shadow:0 0 5px 0 var(--primary-light);
@@ -12159,9 +12156,6 @@ section.product-promotion-carousel {
 }
 .tile-card-group .card:hover a.link-hover-effect{
   background-size:100% 1px
-}
-.tile-card-group .card:hover .arrow-icon{
-  animation:bounce .6s infinite
 }
 .tile-card-group .card:focus{
   outline:0;
