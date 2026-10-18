@@ -1,5 +1,6 @@
 # Build trang Tin tức từ data/ sau mỗi lần CMS Lưu/Xoá bài (GAS.md mục VIII).
-# Chỉ trigger theo data/posts.json - file CMS LUÔN ghi SAU CÙNG trong 1 thao tác. Trigger theo
+# Chỉ trigger theo data/posts.json (file CMS LUÔN ghi SAU CÙNG khi Lưu/Xoá bài) và
+# data/categories.json (thao tác danh mục chỉ ghi đúng 1 file này). Trigger theo
 # cả data/** sẽ build ở commit dở dang (ảnh/detail đã lên nhưng danh sách chưa cập nhật).
 # Commit của CI chỉ đụng html/ nên không tự kích hoạt lại workflow này.
 name: Build site from CMS data
@@ -9,6 +10,7 @@ on:
     branches: [master]
     paths:
       - data/posts.json
+      - data/categories.json
   workflow_dispatch:
 
 permissions:

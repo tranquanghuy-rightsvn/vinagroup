@@ -9,7 +9,8 @@
       `/tin-tuc/` tự cập nhật.
    2. Form Liên hệ (`/lien-he/`) — thay `mailto:` bằng gửi thẳng về CMS: lưu lại + gửi email
       báo về `tapdoanvinagroup@gmail.com`; xem/đổi trạng thái/xoá trong Admin.
-   3. Người dùng — đăng nhập OTP, phân quyền root > admin > editor.
+   3. Danh mục bài viết — thêm/đổi tên/xoá trong Admin (mục II-B).
+   4. Người dùng — đăng nhập OTP, phân quyền root > admin > editor.
    KHÔNG quản lý: Công bố thông tin, Báo cáo tài chính, các trang tĩnh khác (sửa ở repo thien).
 
 ```
@@ -20,7 +21,7 @@ I. Đối với tính năng đăng nhập:
      KHÔNG hiện/không sửa được trong UI quản lý người dùng. requestOtp tự cho qua account này.
   4. Phân quyền: 3 cấp root > admin > editor (ROLE_RANK = {editor:1, admin:2, root:3}).
      - editor : Tin tức (thêm/sửa/xoá bài). KHÔNG thấy Liên hệ (thông tin khách hàng).
-     - admin  : mọi thứ của editor + Liên hệ + Người dùng (thêm/sửa/xoá admin & editor).
+     - admin  : mọi thứ của editor + Danh mục + Liên hệ + Người dùng (thêm/sửa/xoá admin & editor).
      - root   : chủ script (ngầm định) hoặc dòng "root" sửa tay trong Sheet - toàn quyền.
      - Qua CMS chỉ gán được admin/editor; không tự sửa/xoá chính mình.
   5. OTP sống 10 phút, cooldown 60 giây/email, tối đa 5 lần nhập sai rồi phải xin mã mới.
@@ -32,9 +33,8 @@ II. Đối với viết bài (Tin tức):
   1. Field có ô nhập (không tự ý thêm/bớt):
      - Tiêu đề
      - Slug (tự sinh từ tiêu đề, bỏ dấu + gạch ngang; bất biến sau lần Lưu đầu - mục III)
-     - Danh mục: danh sách CỐ ĐỊNH (POST_CATEGORIES trong gas/Code.js, phải khớp
-       scripts/build.py): "Kiến thức đầu tư", "Thị trường", "Tin Vina Group".
-       Không quản lý qua CMS; muốn đổi thì sửa 2 hằng số đó. Để trống được.
+     - Danh mục: chọn từ danh sách quản lý ở mục II-B; bài lưu SLUG danh mục (field
+       "category"). Để trống được. Server chặn Lưu nếu slug không còn tồn tại.
      - Mô tả ngắn (dùng cho thẻ bài ở /tin-tuc/ + meta description)
      - Ảnh bìa (bắt buộc)
      - Ngày đăng (input date; mặc định hôm nay khi tạo, sửa được)
@@ -55,6 +55,16 @@ II. Đối với viết bài (Tin tức):
      (N tăng dần, không đánh số lại). Trong content_html lưu đường dẫn TUYỆT ĐỐI theo domain
      "/uploads/tin-tuc/<file>" (không phụ thuộc độ sâu trang). Trong editor hiển thị qua
      raw.githubusercontent.com.
+
+II-B. Đối với Danh mục bài viết (quyền admin trở lên; editor chỉ chọn khi viết bài):
+   - Field: Tên (bắt buộc, tối đa 60 ký tự, không trùng tên danh mục khác).
+   - Mã (slug): tự sinh từ tên lúc tạo, BẤT BIẾN - bài viết tham chiếu bằng slug, nên đổi tên
+     chỉ ghi lại data/categories.json (không phải ghi lại từng bài) và tự áp lên mọi bài.
+   - Xoá: CHẶN nếu còn bài thuộc danh mục (server đếm trong data/posts.json; nút Xoá trên UI
+     cũng disable) - không tự động gỡ danh mục khỏi bài.
+   - Thứ tự hiển thị trong dropdown = thứ tự tạo. Danh sách nằm trong boot(), không tải riêng.
+   - Danh mục chỉ hiển thị trên site (thẻ tin, trang bài, JSON-LD articleSection); KHÔNG có
+     trang lọc theo danh mục.
 
 III. Đối với sửa bài:
    - Slug bất biến sau lần lưu đầu: server throw nếu bài không tồn tại với slug đó; client
@@ -109,11 +119,12 @@ VIII. Kiến trúc lưu trữ:
    - GitHub (Contents API, repo site):
      - data/posts.json              index nhẹ mọi bài (commit CHỐT, trigger CI)
      - data/tin-tuc/<slug>.json     nội dung đầy đủ 1 bài
+     - data/categories.json         danh mục [{slug, name}] (commit CHỐT riêng, trigger CI)
      - data/legacy-posts.json       thẻ tin viết tay không có trang chi tiết (hiện rỗng: 3 thẻ
                                     cũ đã được viết thành bài CMS thật); CMS không đụng,
                                     build.py liệt kê sau bài CMS.
      - html/uploads/tin-tuc/*       ảnh bài viết (ghi thẳng vào vị trí site)
-   - Build (scripts/build.py, GitHub Actions khi data/posts.json đổi):
+   - Build (scripts/build.py, GitHub Actions khi data/posts.json HOẶC data/categories.json đổi):
      - html/tin-tuc/<slug>/index.html  dựng từ CHÍNH html/tin-tuc/index.html lúc build (giữ
        đồng bộ header/footer khi repo thien đổi giao diện) - lệch khỏi mặc định "templates/"
        của playbook có chủ đích: design gốc thuộc repo khác, scaffold 1 lần sẽ lỗi thời.

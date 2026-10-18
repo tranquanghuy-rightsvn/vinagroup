@@ -26,8 +26,8 @@ ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "html"
 DATA = ROOT / "data"
 
-# PHẢI KHỚP y hệt POST_CATEGORIES trong gas/Code.js (GAS.md mục II.1).
-POST_CATEGORIES = ["Kiến thức đầu tư", "Thị trường", "Tin Vina Group"]
+# Danh mục quản lý qua CMS: data/categories.json [{slug, name}]; bài viết lưu slug (GAS.md II-B).
+CATEGORIES = {}
 
 UPLOAD_PREFIX = "/uploads/tin-tuc/"
 POSTS_BEGIN, POSTS_END = "<!--cms:posts-begin-->", "<!--cms:posts-end-->"
@@ -82,9 +82,13 @@ def card_html(title, description, image, href=None, category=None, date=None):
     )
 
 
+def category_name(slug):
+    return CATEGORIES.get(slug, slug or "")
+
+
 def post_card(p):
     return card_html(p["title"], p.get("description"), UPLOAD_PREFIX + p["cover"],
-                     href=f"/tin-tuc/{p['slug']}/", category=p.get("category"), date=p.get("date"))
+                     href=f"/tin-tuc/{p['slug']}/", category=category_name(p.get("category")), date=p.get("date"))
 
 
 CARD_CSS = (
@@ -158,7 +162,7 @@ BREADCRUMB_RE = re.compile(r'(<div class="row ml-0 mr-0 breadscrum">).*?(</div>)
 
 
 def article_html(detail, related):
-    category = detail.get("category")
+    category = category_name(detail.get("category"))
     meta = [f'<a href="/tin-tuc/">Tin Tức</a>']
     if category:
         meta.append(esc(category))
@@ -201,7 +205,7 @@ def article_seo_block(d):
                 "datePublished": d["date"],
                 "dateModified": str(d.get("updated_at") or d["date"]),
                 "inLanguage": "vi-VN",
-                "articleSection": d.get("category") or "Tin tức",
+                "articleSection": category_name(d.get("category")) or "Tin tức",
                 "mainEntityOfPage": url,
                 "author": {"@id": SEO.BASE_URL + "#organization"},
                 "publisher": {
@@ -240,7 +244,7 @@ def article_seo_block(d):
         f'<meta property="og:image:alt" content="{a(d.get("cover_alt") or d["title"])}">',
         f'<meta property="article:published_time" content="{a(d["date"])}">',
         f'<meta property="article:modified_time" content="{a(d.get("updated_at") or d["date"])}">',
-        f'<meta property="article:section" content="{a(d.get("category") or "Tin tức")}">',
+        f'<meta property="article:section" content="{a(category_name(d.get("category")) or "Tin tức")}">',
         '<meta name="twitter:card" content="summary_large_image">',
         f'<meta name="twitter:title" content="{a(title)}">',
         f'<meta name="twitter:description" content="{a(desc)}">',
@@ -343,10 +347,11 @@ def patch_contact_form():
 def main():
     posts = load_json(DATA / "posts.json", [])
     legacy = load_json(DATA / "legacy-posts.json", [])
+    CATEGORIES.update({c["slug"]: c["name"] for c in load_json(DATA / "categories.json", [])})
     posts.sort(key=lambda p: (str(p.get("date", "")), str(p.get("updated_at", ""))), reverse=True)
     for p in posts:
-        if p.get("category") and p["category"] not in POST_CATEGORIES:
-            print(f"WARN: bài {p['slug']} có danh mục lạ: {p['category']}", file=sys.stderr)
+        if p.get("category") and p["category"] not in CATEGORIES:
+            print(f"WARN: bài {p['slug']} thuộc danh mục không tồn tại: {p['category']}", file=sys.stderr)
 
     SEO.main()  # trang tĩnh trước: khung bài viết lấy từ /tin-tuc/ đã chuẩn hoá SEO
     tpl = article_template()
